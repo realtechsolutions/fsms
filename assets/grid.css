@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  /* Auto-places items into columns that are at least 150px wide but stretch to fill the space */
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 1rem; /* Use Pico's spacing for gaps */
+}
+
+@media (min-width: 992px) {
+  .grid-container {
+    /* Increase the minimum width of columns on larger screens */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  border: 1px solid var(--pico-muted-border-color); /* Use Pico variables */
+  border-radius: var(--pico-border-radius);
+  transition: transform 0.2s;
+}
+
+
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.grid-item img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .grid-item img {
+   width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  }
+}
+
+.clauseName {
+  font-weight: bold;
+   font-size: 1.1rem;
+}

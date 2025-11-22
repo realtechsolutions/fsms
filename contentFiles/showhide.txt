@@ -1,0 +1,41 @@
+/* Hide all elements that are NOT an h3 or h4 inside an ol/ul list item */
+ol li > :not(h3):not(h4), 
+ul li > :not(h3):not(h4) {
+    display: none;
+}
+
+/* Add a visual cue to show the headings are clickable */
+ol li h3, 
+ol li h4 {
+    cursor: pointer;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // 1. Select all headers that will act as the clickable trigger.
+    const triggers = document.querySelectorAll('ol li h3, ol li h4');
+
+    // 2. Loop through each trigger to attach the click listener.
+    triggers.forEach(function(header) {
+        header.addEventListener('click', function() {
+            
+            // Start at the element immediately following the clicked header.
+            let current = this.nextElementSibling;
+            
+            // Loop through all subsequent sibling elements.
+            while (current) {
+                // Stop the loop if we hit the next heading (h3 or h4).
+                // This prevents hiding content in the next list item.
+                if (current.tagName === 'H3' || current.tagName === 'H4') {
+                    break;
+                }
+                
+                // Toggle the display property (if it's 'none', change to 'block', and vice-versa).
+                // Use a standard block display or an empty string '' for default browser display.
+                current.style.display = (current.style.display === 'none') ? 'block' : 'none';
+                
+                // Move to the next element.
+                current = current.nextElementSibling;
+            }
+        });
+    });
+});

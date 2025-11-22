@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }} | ISO-22000</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/2.0.6/pico.min.css">
+  <link rel="stylesheet" href="../assets/page.css">
+  <style>
+    header {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      background: #2563eb;
+      color: white;
+    }
+    header h1 {
+      flex: 1;
+      margin: 0;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .back-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="back-btn" aria-label="Back">←</a>
+    <h1>{{site.title}}</h1>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+<script> 
+document.querySelectorAll('main ol > li > h4').forEach(h4 => {
+  h4.addEventListener('click', () => h4.parentElement.classList.toggle('open'));
+});
+
+</script>
+</body>
+</html>

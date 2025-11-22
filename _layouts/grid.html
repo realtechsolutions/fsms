@@ -1,0 +1,18 @@
+---
+layout: home
+
+---
+
+<section class="grid-container"> 
+  
+  {% for i in (0..10) %}
+  
+    <a href="contentFiles/intro.html" class ="grid-item">    
+       
+          <img src="{{ page.urls[i] }}" alt="image">
+          <span class = "clauseName">{{ page.items[i] }}</span>      
+      
+    </a>
+    
+  {% endfor %}
+
