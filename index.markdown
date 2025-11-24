@@ -16,17 +16,17 @@ items:
   - Performance evaluation
   - Improvement
 urls:
-  - ../images/introduction.jpeg
-  - ../images/scope.png
-  - ../images/normative.png
-  - ../images/terms.png
-  - ../images/context.png
-  - ../images/leadership.jpg
-  - ../images/planning.png
-  - ../images/support.png
-  - ../images/operations.png
-  - ../images/performance.png
-  - ../images/improvement.png
+  - images/introduction.jpeg
+  - images/scope.png
+  - images/normative.png
+  - images/terms.png
+  - images/context.png
+  - images/leadership.jpg
+  - images/planning.png
+  - images/support.png
+  - images/operations.png
+  - images/performance.png
+  - images/improvement.png
 navurls :
   - contentFiles/intro.html
 ---

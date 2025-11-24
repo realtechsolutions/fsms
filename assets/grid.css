@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   /* Auto-places items into columns that are at least 150px wide but stretch to fill the space */
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem; /* Use Pico's spacing for gaps */
 }
 

@@ -1,3 +1,20 @@
+
+/* main ol > li > h4 {
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;    /* ← This adds space inside */
+  /* margin: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px; */
+  /* ... */
+/* } */
+
+ 
+
+
+
+
+
 main ol > li > *:not(h4) { display: none; }
 main ol > li.open > * { display: block; }
 main ol > li > h4 { cursor: pointer; }

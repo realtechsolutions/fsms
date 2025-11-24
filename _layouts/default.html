@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,104 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/2.0.6/pico.min.css">
   <link rel="stylesheet" href="../assets/page.css">
   <style>
+    /* Header styling using Pico's design tokens */
     header {
       display: flex;
       align-items: center;
-      padding: 0.5rem 1rem;
-      background: #2563eb;
-      color: white;
+      padding: var(--pico-spacing);
+      background: var(--pico-primary);
+      color: var(--pico-primary-inverse);
+      box-shadow: var(--pico-box-shadow);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
+    
     header h1 {
       flex: 1;
       margin: 0;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       text-align: center;
+      font-weight: 600;
+      color: var(--pico-primary-inverse);
     }
+    
     .back-btn {
-      background: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      background: var(--pico-primary-hover);
       border: none;
-      color: white;
+      border-radius: var(--pico-border-radius);
+      color: var(--pico-primary-inverse);
       font-size: 1.5rem;
       cursor: pointer;
       text-decoration: none;
+      transition: background-color var(--pico-transition);
+    }
+    
+    .back-btn:hover {
+      background: var(--pico-primary-focus);
+    }
+
+    /* Main content styling */
+    main {
+      padding: var(--pico-block-spacing-vertical) var(--pico-spacing);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Enhanced list item styling */
+    main ol > li {
+      margin-bottom: var(--pico-spacing);
+      padding: var(--pico-spacing);
+      background: var(--pico-background-color);
+      border: 1px solid var(--pico-muted-border-color);
+      border-radius: var(--pico-border-radius);
+      transition: all var(--pico-transition);
+    }
+
+    main ol > li:hover {
+      border-color: var(--pico-primary);
+      box-shadow: 0 0 0 1px var(--pico-primary);
+    }
+
+    main ol > li > h4 {
+      margin: 0;
+      padding: 0.5rem;
+      color: var(--pico-primary);
+      user-select: none;
+    }
+
+    /* Dark theme enhancements */
+    @media (prefers-color-scheme: dark) {
+      html:not([data-theme="light"]) main ol > li {
+        background: var(--pico-card-background-color);
+      }
+    }
+
+    [data-theme="dark"] main ol > li {
+      background: var(--pico-card-background-color);
     }
   </style>
 </head>
 <body>
 
   <header>
-    <a href="index.html" class="back-btn" aria-label="Back">←</a>
+    <a href="../index.html" class="back-btn" aria-label="Back to home">←</a>
     <h1>{{site.title}}</h1>
   </header>
 
   <main class="container">
     {{ content }}
   </main>
-<script> 
-document.querySelectorAll('main ol > li > h4').forEach(h4 => {
-  h4.addEventListener('click', () => h4.parentElement.classList.toggle('open'));
-});
 
-</script>
+  <script> 
+    document.querySelectorAll('main ol > li > h4').forEach(h4 => {
+      h4.addEventListener('click', () => h4.parentElement.classList.toggle('open'));
+    });
+  </script>
 </body>
 </html>
