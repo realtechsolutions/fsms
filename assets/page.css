@@ -15,8 +15,8 @@
 
 
 
-main ol > li > *:not(h4) { display: none; }
+main ol > li > *:not(h5) { display: none; }
 main ol > li.open > * { display: block; }
-main ol > li > h4 { cursor: pointer; }
-main ol > li > h4::before { content: "▶ "; }
-main ol > li.open > h4::before { content: "▼ "; }
+main ol > li > h5 { cursor: pointer; }
+main ol > li > h5::before { content: "▶ "; }
+main ol > li.open > h5::before { content: "▼ "; }

@@ -56,6 +56,13 @@
       max-width: 1200px;
       margin: 0 auto;
     } */
+     main.container ol {
+      padding-left: 0rem;       /* smaller than browser default (~40px) */
+      margin-left: 0;
+      list-style-position: outside;
+    }
+
+    
 
     /* Enhanced list item styling */
     main ol > li {
@@ -103,7 +110,7 @@
   </main>
 
   <script> 
-    document.querySelectorAll('main ol > li > h4').forEach(h4 => {
+    document.querySelectorAll('main ol > li > h5').forEach(h4 => {
       h4.addEventListener('click', () => h4.parentElement.classList.toggle('open'));
     });
   </script>
