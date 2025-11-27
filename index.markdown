@@ -16,19 +16,29 @@ items:
   - Performance evaluation
   - Improvement
 urls:
-  - images/introduction.jpeg
-  - images/scope.png
-  - images/normative.png
-  - images/terms.png
-  - images/context.png
-  - images/leadership.jpg
-  - images/planning.png
-  - images/support.png
-  - images/operations.png
-  - images/performance.png
-  - images/improvement.png
+  - images/intro.svg
+  - images/scope.svg
+  - images/reference.svg
+  - images/terms.svg
+  - images/context.svg
+  - images/leader.svg
+  - images/planning.svg
+  - images/support.svg
+  - images/operations.svg
+  - images/performance.svg
+  - images/improvement.svg
 navurls :
   - contentFiles/intro.html
+  - contentFiles/scope.html
+  - contentFiles/reference.html
+  - contentFiles/terms.html
+  - contentFiles/scope.html
+  - contentFiles/scope.html
+  - contentFiles/scope.html
+  - contentFiles/scope.html
+  - contentFiles/scope.html
+  - contentFiles/scope.html
+
 ---
 
 

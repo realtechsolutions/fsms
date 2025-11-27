@@ -6,13 +6,24 @@ layout: home
 <section class="grid-container"> 
   
   {% for i in (0..10) %}
-  
-    <a href="contentFiles/intro.html" class ="grid-item">    
+  {% if i == 0 %}
+    <a href="{{page.navurls[i]}}" class ="grid-item">    
        
           <img src="{{ page.urls[i] }}" alt="image">
-          <span class = "clauseName">{{ page.items[i] }}</span>      
-      
-    </a>
-    
-  {% endfor %}
+          <span class = "clauseName">{{ page.items[i] }}</span>   
+         </a>
 
+         {% else %}
+    
+  <a href="{{page.navurls[i]}}" class ="grid-item">    
+       
+          <img src="{{ page.urls[i] }}" alt="image">
+           <span class = "clauseN0"> Clause :{{ i }}</span>   
+
+          <span class = "clauseName">{{ page.items[i] }}</span>   
+         </a>
+  
+  {% endif %}
+         {% endfor %}
+
+</section>

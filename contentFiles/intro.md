@@ -2,7 +2,11 @@
 layout : page
 title : Introduction
 ---
-This is introduction
+ISO 22000 establishes requirements for a Food Safety Management System to help organizations in the food chain identify and control food safety hazards, ensuring food is safe for consumption.   
+It applies to all types and sizes of food-related businesses and combines communication, prerequisite programs, and HACCP principles within a management system aligned with ISO’s structure.   
+The standard uses the PDCA approach to support continual improvement and consistent hazard control.
+The key points as described in standard are given below.
+
 
 1. ##### General 
 The benefits of adopting this standard to organisations are
@@ -33,6 +37,14 @@ The PDCA cycle can be described briefly as follows:
 - Check: monitor and (where relevant) measure processes and the resulting products and services,analyse and evaluate information and data from monitoring, measuring and verification activities, and report the results;
 - Act:take actions to improve performance, as necessary.
 In this standard PDCA cycle works at two levels.
-- Overall pdca cycle
-- PDCA cycle specific to clause 8 
-![pdca1](../images/pdca1.png  "Overall PDCA")
+ Overall pdca cycle and  PDCA cycle specific to clause 8 .
+    <figure> 
+    <img src = "../images/pdca1.png" style = "max-width : 90%; height :auto" >
+    <figcaption> Overall PDCA </figcaption>
+    </figure>
+    - - - 
+    <!-- ![pdca1](../images/pdca1.png  "Overall PDCA") -->
+    <figure> 
+    <img src = "../images/pdca2.png" style = "max-width : 100%; height :auto" >
+    <figcaption> Operations PDCA </figcaption>
+    </figure>

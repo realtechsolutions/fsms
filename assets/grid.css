@@ -1,53 +1,160 @@
+/* Grid container */
 .grid-container {
+  max-width: 1200px;
+  /* margin: 0 auto; */
   display: grid;
-  /* Auto-places items into columns that are at least 150px wide but stretch to fill the space */
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem; /* Use Pico's spacing for gaps */
-}
-
-@media (min-width: 992px) {
-  .grid-container {
-    /* Increase the minimum width of columns on larger screens */
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  }
-}
-
-
-.grid-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  grid-template-columns: 1fr;
+  gap: 1.0rem;
   padding: 1rem;
-  text-decoration: none;
-  border: 1px solid var(--pico-muted-border-color); /* Use Pico variables */
-  border-radius: var(--pico-border-radius);
-  transition: transform 0.2s;
 }
 
+/* Grid item (card) */
+.grid-item {
+  background: var(--pico-card-background-color);
+  border-radius: var(--pico-border-radius);
+  padding: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: var(--pico-card-box-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  border: var(--pico-border-width) solid var(--pico-card-border-color);
+}
 
+.grid-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--pico-primary);
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
 
 .grid-item:hover {
-  transform: scale(1.05);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--pico-primary);
+  background: var(--pico-card-background-color);
 }
 
+.grid-item:hover::before {
+  transform: scaleY(1);
+}
+
+.grid-item:active {
+  transform: translateY(-2px);
+}
+
+/* Image styling */
 .grid-item img {
   width: 64px;
   height: 64px;
-  object-fit: cover;
-  margin-bottom: 0.5rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  opacity: 0.95;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-@media (min-width: 992px) {
-  .grid-item img {
-   width: 120px;
-  height: 120px;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  }
+.grid-item:hover img {
+  transform: scale(1.1) rotate(5deg);
+  opacity: 1;
+}
+
+/* Text container */
+.grid-item > span {
+  display: block;
+}
+
+.clauseN0 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--pico-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.25rem;
+  opacity: 0.9;
 }
 
 .clauseName {
-  font-weight: bold;
-   font-size: 1.1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--pico-color);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+/* Tablet and up (2 columns) */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .grid-item {
+    padding: 2rem;
+  }
+  
+  .grid-item img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .clauseName {
+    font-size: 1.25rem;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .grid-container {
+    gap: 2.5rem;
+  }
+}
+
+/* Focus styles for accessibility */
+.grid-item:focus {
+  outline: var(--pico-outline-width) solid var(--pico-primary);
+  outline-offset: 2px;
+}
+
+/* Animation on page load */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.grid-item {
+  animation: fadeInUp 0.6s ease backwards;
+}
+
+.grid-item:nth-child(1) { animation-delay: 0.05s; }
+.grid-item:nth-child(2) { animation-delay: 0.1s; }
+.grid-item:nth-child(3) { animation-delay: 0.15s; }
+.grid-item:nth-child(4) { animation-delay: 0.2s; }
+.grid-item:nth-child(5) { animation-delay: 0.25s; }
+.grid-item:nth-child(6) { animation-delay: 0.3s; }
+.grid-item:nth-child(7) { animation-delay: 0.35s; }
+.grid-item:nth-child(8) { animation-delay: 0.4s; }
+.grid-item:nth-child(9) { animation-delay: 0.45s; }
+.grid-item:nth-child(10) { animation-delay: 0.5s; }
+.grid-item:nth-child(11) { animation-delay: 0.55s; }
+
+/* Dark theme adjustments */
+@media (prefers-color-scheme: dark) {
+  .grid-item:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
 }
