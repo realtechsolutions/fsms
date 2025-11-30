@@ -7,21 +7,30 @@ layout: home
   
   {% for i in (0..10) %}
   {% if i == 0 %}
+   {% assign svg_path = page.urls[i] %}
     <a href="{{page.navurls[i]}}" class ="grid-item">    
        
-          <img src="{{ page.urls[i] }}" alt="image">
+          <div class="icon-wrapper">
+            {% include {{svg_path }} %}
+          </div>
           <span class = "clauseName">{{ page.items[i] }}</span>   
          </a>
 
          {% else %}
-    
+      {% assign svg_path = page.urls[i] %}
   <a href="{{page.navurls[i]}}" class ="grid-item">    
        
-          <img src="{{ page.urls[i] }}" alt="image">
-           <span class = "clauseN0"> Clause :{{ i }}</span>   
-
-          <span class = "clauseName">{{ page.items[i] }}</span>   
-         </a>
+           <div class="icon-wrapper">
+            {% include {{svg_path }} %}
+          </div>
+          
+          
+          <div class="text">
+         
+          <div class = "title">{{ page.items[i] }}</div>  
+           <div class = "subtext" > {{page.subtext[1]}}</div>  
+          </div>
+       </a>
   
   {% endif %}
          {% endfor %}

@@ -16,17 +16,17 @@ items:
   - Performance evaluation
   - Improvement
 urls:
-  - images/intro.svg
-  - images/scope.svg
-  - images/reference.svg
-  - images/terms.svg
-  - images/context.svg
-  - images/leader.svg
-  - images/planning.svg
-  - images/support.svg
-  - images/operations.svg
-  - images/performance.svg
-  - images/improvement.svg
+  - icons/intro.svg
+  - icons/scope.svg
+  - icons/reference.svg
+  - icons/terms.svg
+  - icons/context.svg
+  - icons/leader.svg
+  - icons/planning.svg
+  - icons/support.svg
+  - icons/operations.svg
+  - icons/performance.svg
+  - icons/improvement.svg
 navurls :
   - contentFiles/intro.html
   - contentFiles/scope.html
@@ -38,6 +38,14 @@ navurls :
   - contentFiles/scope.html
   - contentFiles/scope.html
   - contentFiles/scope.html
+subtext :
+  - Introduction to standard.
+  - "Defines purpose of ISO 22000 <br>
+    Applies to all food chain organizations <br>
+    Ensures safe food for consumers <br>
+    Focuses on controlling food safety hazards"
+
+
 
 ---
 

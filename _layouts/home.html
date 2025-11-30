@@ -1,27 +1,32 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{site.title}}</title>
 
   <!-- Pico CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.5.10/css/pico.min.css">
-<link rel="stylesheet" href="assets/grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/2.0.6/pico.min.css">
+
+  <link rel="stylesheet" href="assets/grid.css">
   <style>
     /* Hide drawer and overlay by default */
     .drawer.hidden,
-    .overlay.hidden { 
-      display: none; 
+    .overlay.hidden {
+      display: none;
     }
 
-    body { margin: 0; }
+    body {
+      margin: 0;
+    }
 
     /* Top bar (sticky + above drawer) */
     .topbar {
       position: sticky;
       top: 0;
-      z-index: 60; /* higher than drawer (50) */
+      z-index: 60;
+      /* higher than drawer (50) */
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -72,26 +77,33 @@
       left: 0;
       background: #f5f5f5;
       padding: 1.2rem;
-      box-shadow: 3px 0 12px rgba(0,0,0,0.15);
-      z-index: 50; /* below header */
+      box-shadow: 3px 0 12px rgba(0, 0, 0, 0.15);
+      z-index: 50;
+      /* below header */
       overflow-y: auto;
     }
 
-    .drawer a { display: block; padding: 0.6rem 0; }
+    .drawer a {
+      display: block;
+      padding: 0.6rem 0;
+    }
 
     /* Overlay (covers page when drawer open) */
     .overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.35);
+      background: rgba(0, 0, 0, 0.35);
       z-index: 40;
     }
 
     /* Main content spacing so header doesn't overlap content */
-    main.container { padding-top: 1rem; }
+    main.container {
+      padding-top: 1rem;
+    }
 
     /* Desktop styles (768px and above) */
     @media (min-width: 768px) {
+
       /* Hide mobile hamburger */
       .hamburger {
         display: none;
@@ -125,77 +137,78 @@
     }
 
     #title {
-            font-size: 1.5rem;
+      font-size: 1.5rem;
     }
-  
   </style>
 </head>
+
 <body>
 
-<div>
+  <div>
 
-  <!-- Top bar: sticky and always visible -->
-  <header class="topbar" role="banner" aria-hidden="false" aria-label="Top app bar">
-    <button class="hamburger" id="menuBtn" aria-controls="app-drawer" aria-expanded="false">
-      ☰
-    </button>
-     <span  id = "title" >{{site.title}} </span>
-    <!-- <h2>{{site.title}}</h2> -->
+    <!-- Top bar: sticky and always visible -->
+    <header class="topbar" role="banner" aria-hidden="false" aria-label="Top app bar">
+      <button class="hamburger" id="menuBtn" aria-controls="app-drawer" aria-expanded="false">
+        ☰
+      </button>
+      <span id="title">{{site.title}} </span>
+      <!-- <h2>{{site.title}}</h2> -->
 
-    <!-- Desktop navigation (hidden on mobile) -->
-    <nav class="desktop-nav">
-      <a href="#">ℹ️ About</a>
-      <a href="#">💬 Feedback</a>
-      <a href="#">🔗 Share</a>
-    </nav>
-  </header>
+      <!-- Desktop navigation (hidden on mobile) -->
+      <nav class="desktop-nav">
+        <a href="#">ℹ️ About</a>
+        <a href="#">💬 Feedback</a>
+        <a href="#">🔗 Share</a>
+      </nav>
+    </header>
 
-  <!-- Drawer -->
-  <aside id="app-drawer" class="drawer hidden" aria-label="Main menu" role="navigation">
-    <h4 style="margin-top:0;">Menu</h4>
+    <!-- Drawer -->
+    <aside id="app-drawer" class="drawer hidden" aria-label="Main menu" role="navigation">
+      <h4 style="margin-top:0;">Menu</h4>
 
-    <nav>
+      <nav>
 
-      <a href="#">ℹ️ About</a>
-      <a href="#">💬 Feedback</a>
-      <a href="#">🔗 Share</a>
-    
-    </nav>
+        <a href="#">ℹ️ About</a>
+        <a href="#">💬 Feedback</a>
+        <a href="#">🔗 Share</a>
 
-    <div style="margin-top:1rem;">
-      <button class="secondary" id="closeBtn">Close</button>
-    </div>
-  </aside>
+      </nav>
 
-  <!-- Overlay -->
-  <div id="overlay" class="overlay hidden" aria-hidden="true"></div>
+      <div style="margin-top:1rem;">
+        <button class="secondary" id="closeBtn">Close</button>
+      </div>
+    </aside>
 
-  <!-- Main content -->
-</div>
+    <!-- Overlay -->
+    <div id="overlay" class="overlay hidden" aria-hidden="true"></div>
 
-<script>
-  const drawer = document.getElementById('app-drawer');
-  const overlay = document.getElementById('overlay');
-  const menuBtn = document.getElementById('menuBtn');
-  const closeBtn = document.getElementById('closeBtn');
+    <!-- Main content -->
+  </div>
 
-  function openDrawer() {
-    drawer.classList.remove('hidden');
-    overlay.classList.remove('hidden');
-    menuBtn.setAttribute('aria-expanded', 'true');
-  }
+  <script>
+    const drawer = document.getElementById('app-drawer');
+    const overlay = document.getElementById('overlay');
+    const menuBtn = document.getElementById('menuBtn');
+    const closeBtn = document.getElementById('closeBtn');
 
-  function closeDrawer() {
-    drawer.classList.add('hidden');
-    overlay.classList.add('hidden');
-    menuBtn.setAttribute('aria-expanded', 'false');
-  }
+    function openDrawer() {
+      drawer.classList.remove('hidden');
+      overlay.classList.remove('hidden');
+      menuBtn.setAttribute('aria-expanded', 'true');
+    }
 
-  menuBtn.addEventListener('click', openDrawer);
-  closeBtn.addEventListener('click', closeDrawer);
-  overlay.addEventListener('click', closeDrawer);
-</script>
- 
-{{content}}
+    function closeDrawer() {
+      drawer.classList.add('hidden');
+      overlay.classList.add('hidden');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+
+    menuBtn.addEventListener('click', openDrawer);
+    closeBtn.addEventListener('click', closeDrawer);
+    overlay.addEventListener('click', closeDrawer);
+  </script>
+
+  {{content}}
 </body>
+
 </html>
