@@ -37,14 +37,35 @@ The PDCA cycle can be described briefly as follows:
 - Check: monitor and (where relevant) measure processes and the resulting products and services,analyse and evaluate information and data from monitoring, measuring and verification activities, and report the results;
 - Act:take actions to improve performance, as necessary.
 In this standard PDCA cycle works at two levels.
- Overall pdca cycle and  PDCA cycle specific to clause 8 .
+Overall pdca cycle and  PDCA cycle specific to clause 8 .
     <figure> 
-    <img src = "../images/pdca1.png" style = "max-width : 90%; height :auto" >
+    <img src = "../assets/images/pdca1.png" style = "max-width : 90%; height :auto" >
     <figcaption> Overall PDCA </figcaption>
     </figure>
     - - - 
     <!-- ![pdca1](../images/pdca1.png  "Overall PDCA") -->
     <figure> 
-    <img src = "../images/pdca2.png" style = "max-width : 100%; height :auto" >
+    <img src = "../assets/images/pdca2.png" style = "max-width : 100%; height :auto" >
     <figcaption> Operations PDCA </figcaption>
     </figure>
+
+
+   ###### Risk-based thinking
+ Risk-based thinking is essential for achieving an effective FSMS. In this document, risk-based thinking is addressed on two levels, 
+ organizational  and operational.
+ *Organizational risk management:*  
+ Risk is the effect of uncertainty, and any such uncertainty can have positive or negative effects.  
+ In the context of organizational risk management, a positive deviation arising from a risk can provide an opportunity, but not all positive effects of risk result in opportunities.
+ To conform to the requirements of this document, an organization plans and implements actions to address organizational risks.   
+ Addressing risks establishes a basis for increasing the
+ effectiveness of the FSMS, achieving improved results and preventing negative effects.
+ *Hazard analysis* — Operational processes   
+ The concept of risk-based thinking based on the HACCP principles at the operational level is implicit in this document.    
+ The subsequent steps in HACCP can be considered as the necessary measures to prevent hazards or reduce hazards to acceptable levels to ensure food is safe at the time of consumption.
+
+4. ##### Relationship with other standards.
+ This standard enables an organization to use the process approach,  coupled with the PDCA cycle and risk-based thinking, to align
+ or integrate its FSMS approach with the requirements of other management systems and supporting standards.
+ his document is the core principle and framework for FSMSs and sets out the specific FSMS
+ requirements for organizations throughout the food chain. Other guidance related to food safety,
+ specifications and/or requirements specific to food sectors can be used together with this framework.

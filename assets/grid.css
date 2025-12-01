@@ -76,7 +76,7 @@
 .subtext {
   font-size: 0.75rem;
   font-weight: 400;
-  color: var(--pico-secondary),red; 
+  color: var(--pico-primary-inverse); 
   letter-spacing: 0.5px;
   margin-bottom: 0.25rem;
   opacity: 0.9;

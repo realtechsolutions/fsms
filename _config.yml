@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IS0-22000 (FSMS)
+title: IS0-22000 
 email: realtechsolns@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   IS0-22000 Food Safety Management System
