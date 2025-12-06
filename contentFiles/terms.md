@@ -2,7 +2,7 @@
 layout : page
 title : Terms and definitions
 ---
-![terms](/assets/images/terms.png)
+![terms](../assets/images/terms.png)
 For the purposes of this standard, the following terms and definitions apply.
 
 ##### Acceptable level

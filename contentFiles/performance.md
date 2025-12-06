@@ -2,7 +2,7 @@
 title: Performance evaluation
 layout : page 
 ---
-![performance](/assets/images/performance.png) 
+![performance](../assets/images/performance.png) 
 This clause focuses on reviewing how well the Food Safety Management System is performing.   
 It requires monitoring, measurement, analysis, and evaluation of food safety processes. Organizations must conduct internal audits, management reviews, and assess system effectiveness based on documented data, trends, and performance results to ensure continual compliance and improvement.  
 Following are the points covered in the standard.  
