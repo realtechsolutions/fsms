@@ -2,8 +2,9 @@
 layout : page
 title : Terms and definitions
 ---
-
+![terms](/assets/images/terms.png)
 For the purposes of this standard, the following terms and definitions apply.
+
 ##### Acceptable level
 Level of a food safety hazard not to be exceeded in the end product provided by the organization.
 

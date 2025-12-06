@@ -8,6 +8,15 @@
   border-radius: 6px; */
   /* ... */
 /* } */
+img { max-width: 500px;   
+  margin-left: 0;
+  margin-right: auto;
+  width: 80vw;
+  height: auto; 
+display: block;
+/* filter: invert(100%); */
+
+}
 
  
 

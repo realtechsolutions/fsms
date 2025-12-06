@@ -2,7 +2,7 @@
 title : Operations
 layout : page
 ---
-![clause8](../assets/images/clause8.png) <br>
+![clause8](../assets/images/clause8.png) 
 
 Clause 8 focuses on carrying out processes necessary to ensure safe food production. It includes hazard analysis, establishing PRPs, CCPs/OPRPs, implementing traceability, controlling outsourced processes, emergency preparedness, and managing nonconforming products to ensure food safety at every stage.   
 Following points are described in standard. 
@@ -329,124 +329,101 @@ Following points are described in standard.
     
     ***Verification***
 
-    The organization shall establish, implement and maintain verification activities. The verification  planning shall define purpose, methods, frequencies and responsibilities for the verification activities.  
-    The verification activities shall confirm that:  
-    a)the PRP(s) are implemented and effective;  
-    c)hazard levels are within identified acceptable levels;  
-    e)other actions determined by the organization are implemented and effective.  
-    b) the hazard control plan is implemented and effective;  
-    d) input to the hazard analysis is updated;  
-    The organization shall ensure that verification activities are not carried out by the person responsible  for monitoring the same activities.  
-    Verification results shall be retained as documented information and shall be communicated.  
-    Where verification is based on testing of end product samples or direct process samples and where   such test samples show nonconformity with the acceptable level of the food safety hazard (see 8.5.2.2),
+    The organization shall establish, implement and maintain verification activities.   
+    The verification  planning shall define purpose, methods, frequencies and responsibilities for the verification activities.    
+    The verification activities shall confirm that: 
+    a)the PRP(s) are implemented and effective; 
+    b) the hazard control plan is implemented and effective;     
+    c)hazard levels are within identified acceptable levels;   
+    d) input to the hazard analysis is updated;     
+    e)other actions determined by the organization are implemented and efftive.   
+    
+    
+    The organization shall ensure that verification activities are not carried out by the person responsible  for monitoring the same activities.    
+    Verification results shall be retained as documented information and shall be communicated.    
+    Where verification is based on testing of end product samples or direct process samples and where   such test samples show nonconformity with the acceptable level of the food safety hazard (see 8.5.2.2),  
     the organization shall handle the affected lot(s) of product as potentially unsafe (see 8.9.4.3) and apply  corrective actions in accordance with 8.9.3.
-    8.8.2
+    8.8.2  
     **Analysis of results of verification activities**
 
-    The food safety team shall conduct an analysis of the results of verification that shall be used as an
-    input to the performance evaluation of the FSMS (see 9.1.2).
+    The food safety team shall conduct an analysis of the results of verification that shall be used as an input to the performance evaluation of the FSMS (see 9.1.2).
 
-    **Control of product and process nonconformities**
+9. ##### Control of product and process nonconformities**
   
-    General  
-    The organization shall ensure that data derived from the monitoring of OPRPs and at CCPs are evaluated
-    by designated persons who are competent and have the authority to initiate corrections and corrective
-    actions.
-    8.9.2
-    Corrections
-    8.9.2.1 The organization shall ensure that when critical limits at CCP(s) and/or action criteria for
-    OPRPs are not met, the products affected are identified and controlled with regard to their use and
-    release.
-    The organization shall establish, maintain and update documented information that includes:
-    a)
-    a method of identification, assessment and correction for affected products to ensure their proper
-    handling;
-    b) arrangements for review of the corrections carried out.
-    8.9.2.2 When critical limits at CCPs are not met, affected products shall be identified and handled as
-    potentially unsafe products (see 8.9.4).
-    8.9.2.3
-    Where action criteria for an OPRP are not met, the following shall be carried out:
-    a)determination of the consequences of that failure with respect to food safety;
-    c)identification of the affected products and handling in accordance with 8.9.4.
-    b) determination of the cause(s) of failure;
-    The organization shall retain results of the evaluation as documented information.
-    8.9.2.4 Documented information shall be retained to describe corrections made on nonconforming
-    products and processes, including:
-    a)the nature of the nonconformity;
-    c)the consequences as a result of the nonconformity.
-    b) the cause(s) of the failure;
-    8.9.3
-    Corrective actions
-    The need for corrective actions shall be evaluated when critical limits at CCP(s) and/or action criteria
-    for OPRPs are not met.
-    The organization shall establish and maintain documented information that specifies appropriate
-    actions to identify and eliminate the cause of detected nonconformities, to prevent recurrence, and to
-    return the process to control after a nonconformity is identified.
-    These actions shall include:
-    a)reviewing nonconformities identified by customer and/or consumer complaints and/or regulatory
-    inspection reports;
-    c)determining the cause(s) of nonconformities;
-    b) reviewing trends in monitoring results that can indicate loss of control;
-   
-    27d) determining and implementing actions to ensure that nonconformities do not recur;
-    e)
-    f)
-    documenting the results of corrective actions taken;
-    verifying corrective actions taken to ensure that they are effective.
+    ***General***
+
+    The organization shall ensure that data derived from the monitoring of OPRPs and at CCPs are evaluated by designated persons who are competent and have the authority to initiate corrections and corrective actions.
+    
+    ***Corrections**
+    The organization shall ensure that when critical limits at CCP(s) and/or action criteria for  OPRPs are not met, the products affected are identified and controlled with regard to their use and release.  
+    The organization shall establish, maintain and update documented information that includes:  
+    a) a method of identification, assessment and correction for affected products to ensure their proper handling;  
+    b) arrangements for review of the corrections carried out.  
+    When critical limits at CCPs are not met, affected products shall be identified and handled as potentially unsafe products (see 8.9.4).  
+    
+    Where action criteria for an OPRP are not met, the following shall be carried out:  
+    
+    a)determination of the consequences of that failure with respect to food safety; 
+    b) determination of the cause(s) of failure;   
+    c)identification of the affected products and handling in accordance with 8.9.4    
+     
+    The organization shall retain results of the evaluation as documented information.   
+    Documented information shall be retained to describe corrections made on nonconforming  roducts and processes, including:  
+    a)the nature of the nonconformity; 
+    b) the cause(s) of the failure;   
+    c)the consequences as a result of the nonconformity.  
+       
+    **Corrective actions**
+
+    The need for corrective actions shall be evaluated when critical limits at CCP(s) and/or action criteria for OPRPs are not met.  
+    The organization shall establish and maintain documented information that specifies appropriate  actions to identify and eliminate the cause of detected nonconformities, to prevent recurrence, and to return the process to control after a nonconformity is identified.   
+    These actions shall include:  
+    a)reviewing nonconformities identified by customer and/or consumer complaints and/or regulatory inspection reports;  
+    b) reviewing trends in monitoring results that can indicate loss of control;  
+    c)determining the cause(s) of nonconformities;   
+    d) determining and implementing actions to ensure that nonconformities do not recur;  
+    e) documenting the results of corrective actions taken;    
+    f)verifying corrective actions taken to ensure that they are effective.    
+      
     The organization shall retain documented information on all corrective actions.
-    8.9.4
-    8.9.4.1
-    Handling of potentially unsafe products
-    General
-    The organization shall take action(s) to prevent potentially unsafe products from entering the food
-    chain, unless it can demonstrate that:
-    a)the food safety hazard(s) of concern is (are) reduced to the defined acceptable levels;
-    c)the product still meets the defined acceptable level(s) of the food safety hazard(s) of concern despite
-    the nonconformity.
-    b) the food safety hazard(s) of concern will be reduced to identified acceptable levels prior to entering
-    the food chain; or
-    The organization shall retain products that have been identified as potentially unsafe under its control
-    until the products have been evaluated and the disposition has been determined.
-    If products that have left the control of the organization are subsequently determined to be unsafe, the
-    organization shall notify relevant interested parties and initiate a withdrawal/recall (see 8.9.5).
-    The controls and related responses from relevant interested parties and authorization for dealing with
-    potentially unsafe products shall be retained as documented information.
-    8.9.4.2
-    Evaluation for release
-    Each lot of products affected by the nonconformity shall be evaluated.
-    Products affected by failure to remain within critical limits at CCPs shall not be released, but shall be
-    handled in accordance with 8.9.4.3.
-    Products affected by failure to meet action criterion for OPRPs shall only be released as safe when any
-    of the following conditions apply:
-    a)evidence other than the monitoring system demonstrates that the control measures have been
-    effective;
-    c)the results of sampling, analysis and/or other verification activities demonstrate that the affected
-    products conform to the identified acceptable levels for the food safety hazard(s) concerned.
-    b) evidence shows that the combined effect of the control measures for that particular product
-    conforms to the performance intended (i.e. identified acceptable levels);
-    Results of evaluation for release of products shall be retained as documented information.
-    8.9.4.3
-    Disposition of nonconforming products
+    
+    **Handling of potentially unsafe products**
+    
+    General 
+
+    The organization shall take action(s) to prevent potentially unsafe products from entering the food  chain, unless it can demonstrate that:    
+    a)the food safety hazard(s) of concern is (are) reduced to the defined acceptable levels;   
+    b) the food safety hazard(s) of concern will be reduced to identified acceptable levels prior to entering the food chain or,  
+    c)the product still meets the defined acceptable level(s) of the food safety hazard(s) of concern despite the nonconformity.  
+    The organization shall retain products that have been identified as potentially unsafe under its control until the products have been evaluated and the disposition has been determined.  
+    If products that have left the control of the organization are subsequently determined to be unsafe, the organization shall notify relevant interested parties and initiate a withdrawal/recall (see 8.9.5).   
+    The controls and related responses from relevant interested parties and authorization for dealing with potentially unsafe products shall be retained as documented information.   
+    
+    ***Evaluation for release***
+
+    Each lot of products affected by the nonconformity shall be evaluated.  
+    Products affected by failure to remain within critical limits at CCPs shall not be released, but shall be  handled in accordance with 8.9.4.3.  
+    Products affected by failure to meet action criterion for OPRPs shall only be released as safe when any  of the following conditions apply:  
+    a)evidence other than the monitoring system demonstrates that the control measures have been  effective;  
+    b) evidence shows that the combined effect of the control measures for that particular product conforms to the performance intended (i.e. identified acceptable levels);   
+    Results of evaluation for release of products shall be retained as documented information.  
+    c)the results of sampling, analysis and/or other verification activities demonstrate that the affected products conform to the identified acceptable levels for the food safety hazard(s) concerned.   
+        
+    ***Disposition of nonconforming products**
+
     Products that are not acceptable for release shall be:
-    a)
-    reprocessed or further processed within or outside the organization to ensure that the food safety
-    hazard is reduced to acceptable levels; or
-    b) redirected for other use as long as food safety in the food chain is not affected; or destroyed and/or disposed as waste.
-    Documented information on the disposition of nonconforming products, including the identification of
-    the person(s) with approving authority shall be retained.
-    8.9.5
-    Withdrawal/recall
-    The organization shall be able to ensure the timely withdrawal/recall of lots of end products that have
-    been identified as potentially unsafe, by appointing competent person(s) having the authority to initiate
-    and carry out the withdrawal/recall.
-    The organization shall establish and maintain documented information for:
-    a)notifying relevant interested parties (e.g. statutory and regulatory authorities, customers and/or
-    consumers);
-    c)performing the sequence of actions to be taken.
+    a)  reprocessed or further processed within or outside the organization to ensure that the food safety   hazard is reduced to acceptable levels; or  
+    b) redirected for other use as long as food safety in the food chain is not affected; or destroyed and/or disposed as waste.  
+    Documented information on the disposition of nonconforming products, including the identification of  the person(s) with approving authority shall be retained.
+   
+    ***Withdrawal/recall***
+
+    The organization shall be able to ensure the timely withdrawal/recall of lots of end products that have  been identified as potentially unsafe, by appointing competent person(s) having the authority to initiate  and carry out the withdrawal/recall.  
+    The organization shall establish and maintain documented information for:  
+    a)notifying relevant interested parties (e.g. statutory and regulatory authorities, customers and/or  consumers);
     b) handling withdrawn/recalled products as well as products still in stock;
-    Withdrawn/recalled products and end products still in stock shall be secured or held under the control
-    of the organization until they are managed in accordance with 8.9.4.3.
-    The cause, extent and result of a withdrawal/recall shall be retained as documented information and
-    reported to the top management as input for the management review (see 9.3).
-    The organization shall verify the implementation and effectiveness of withdrawals/recalls through the
-    use of appropriate techniques (e.g. mock withdrawal/recall or practice withdra
+    c)performing the sequence of actions to be taken.
+    
+    Withdrawn/recalled products and end products still in stock shall be secured or held under the control of the organization until they are managed in accordance with 8.9.4.3.     
+    The cause, extent and result of a withdrawal/recall shall be retained as documented information and  reported to the top management as input for the management review (see 9.3).   
+    The organization shall verify the implementation and effectiveness of withdrawals/recalls through the  use of appropriate techniques (e.g. mock withdrawal/recall or practice withdrawal/recall) and retain documented information.

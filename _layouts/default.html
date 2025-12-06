@@ -10,6 +10,7 @@
   <style>
     /* Header styling using Pico's design tokens */
     header {
+      height: 3.6rem;
       display: flex;
       align-items: center;
       padding: var(--pico-spacing);
@@ -34,16 +35,19 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 2.5rem;
-      height: 2.5rem;
-      background: var(--pico-primary-hover);
+      /* width: 2.5rem;
+      height: 2.5rem; */
+      /* background: var(--pico-primary-hover); */
       border: none;
       border-radius: var(--pico-border-radius);
       color: var(--pico-primary-inverse);
-      font-size: 1.5rem;
+      font-size: 2rem;
       cursor: pointer;
       text-decoration: none;
       transition: background-color var(--pico-transition);
+      margin: 0;
+      padding: 0;
+      
     }
     
     .back-btn:hover {
@@ -74,10 +78,10 @@
       transition: all var(--pico-transition);
     }
 
-    main ol > li:hover {
+    /* main ol > li:hover {
       border-color: var(--pico-primary);
       box-shadow: 0 0 0 1px var(--pico-primary);
-    }
+    } */
 
     main ol > li > h4 {
       margin: 0;

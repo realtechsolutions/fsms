@@ -2,6 +2,7 @@
 layout : page
 title : Introduction
 ---
+![introduction](/assets/images/introduction.png)
 ISO 22000 establishes requirements for a Food Safety Management System to help organizations in the food chain identify and control food safety hazards, ensuring food is safe for consumption.   
 It applies to all types and sizes of food-related businesses and combines communication, prerequisite programs, and HACCP principles within a management system aligned with ISO’s structure.   
 The standard uses the PDCA approach to support continual improvement and consistent hazard control.
