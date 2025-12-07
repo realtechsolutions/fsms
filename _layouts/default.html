@@ -30,6 +30,11 @@
       font-weight: 600;
       color: var(--pico-primary-inverse);
     }
+    svg {
+      width: 1.8rem;
+      height: 1.8rem;
+      fill: currentColor;
+    }
     
     .back-btn {
       display: inline-flex;
@@ -41,7 +46,7 @@
       border: none;
       border-radius: var(--pico-border-radius);
       color: var(--pico-primary-inverse);
-      font-size: 2rem;
+      /* font-size: 2rem; */
       cursor: pointer;
       text-decoration: none;
       transition: background-color var(--pico-transition);
@@ -105,7 +110,9 @@
 <body>
 
   <header>
-    <a href="../index.html" class="back-btn" aria-label="Back to home">←</a>
+    <a href="../index.html" class="back-btn" aria-label="Back to home">
+      {% include icons/arrowback.svg %}
+    </a>
     <h1>{{page.title}}</h1>
   </header>
 
