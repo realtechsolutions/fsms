@@ -71,7 +71,7 @@
     /* Drawer (fixed at left) */
     .drawer {
       width: 50vw;
-      height: 75vh;
+      height: 50vh;
       position: fixed;
       top: 0;
       left: 0;
@@ -86,8 +86,7 @@
 
     .drawer a {
       display: flex;
-      align-items: center;
-     
+      align-items: center;     
       padding: 0.6rem 0;
       color: var(--pico-secondary-inverse);
       text-decoration: none;
@@ -191,7 +190,7 @@
       </nav>
 
       <div style="margin-top:1rem;">
-        <button class="secondary" id="closeBtn">Close</button>
+        <button class="secondary" id="closeBtn"></button>
       </div>
     </aside>
 
@@ -218,8 +217,20 @@
       overlay.classList.add('hidden');
       menuBtn.setAttribute('aria-expanded', 'false');
     }
+    // function toggleDrawer() {
+    //   if (drawer.classList.contains('hidden')) {
+    //     openDrawer();
+    //   } else {
+    //     closeDrawer();
+    //   }
+    // }
 
-    menuBtn.addEventListener('click', openDrawer);
+    function toggleDrawer() {
+      drawer.classList.toggle('hidden');
+      overlay.classList.toggle('hidden');
+    }
+
+    menuBtn.addEventListener('click', toggleDrawer);
     closeBtn.addEventListener('click', closeDrawer);
     overlay.addEventListener('click', closeDrawer);
   </script>

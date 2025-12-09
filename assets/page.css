@@ -18,6 +18,21 @@ display: block;
 
 }
 
+.main {
+  max-width: 1000px; /* optional for better readability */
+  margin: auto;
+  padding: 20px;
+  
+  column-count: 1;      /* mobile default */
+  column-gap: 40px;     /* space between columns */
+}
+
+@media (min-width: 900px) {
+  .main {
+    column-count: 2;     /* desktop: 2 columns */
+  }
+}
+
  
 
 

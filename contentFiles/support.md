@@ -9,19 +9,19 @@ Following points are covered in the standard.
 
 1. ##### Resources
 
-   1 *General*
+   ***1.1 General***
 
       The organization shall determine and provide the resources needed for the establishment,implementation, maintenance, update and continual improvement of the FSMS.
       The organization shall consider:
       a. the capability of, and any constraints on, existing internal resources;
       b. the need for external resources.
 
-   2 *People*
+   ***1.2 People***
 
       The organization shall ensure that persons necessary to operate and maintain an effective FSMS are competent .  
       here the assistance of external experts is used for the development, implementation, operation or assessment of the FSMS, evidence of agreement or contracts defining the competency, responsibility and authority of external experts shall be retained as documented information.
    
-   3 *Infrastructure*
+   ***1.3 Infrastructure***
 
       The organization shall provide the resources for the determination, establishment and maintenance of the infrastructure necessary to achieve conformity with the requirements of the FSMS.
       NOTE :Infrastructure can include:
@@ -30,7 +30,7 @@ Following points are covered in the standard.
       - equipment, including hardware and software;
       - information and communication technology.
   
-   4 *Work environment*
+   ***1.4 Work environment***
 
       The organization shall determine, provide and maintain the resources for the establishment,management and maintenance of the work environment necessary to achieve conformity with the requirements of the FSMS.
       NOTE
@@ -39,7 +39,7 @@ Following points are covered in the standard.
       b. psychological (e.g. stress-reducing, burnout prevention, emotionally protective);
       c. physical (e.g. temperature, heat, humidity, light, air flow, hygiene, noise).These factors can differ substantially.  
    
-   5 *Externally developed elements of the food safety management system*
+   ***1.5 Externally developed elements of the food safety management system***
 
       When an organization establishes, maintains, updates and continually improves its FSMS by using externally developed elements of a FSMS, including PRPs, the hazard analysis and the hazard control plan, the organization shall ensure that the provided elements are:
       a. developed in conformance with requirements of this document;
@@ -49,7 +49,7 @@ Following points are covered in the standard.
       safety team;
       e. retained as documented information.
 
-   6 *Control of externally provided processes, products or services*
+   ***1.6 Control of externally provided processes, products or services***
 
       The organization shall:
       . establish and apply criteria for the evaluation, selection, monitoring of performance and re-evaluation of external providers of processes, products and/or services;

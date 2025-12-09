@@ -5,137 +5,137 @@ title : Terms and definitions
 ![terms](../assets/images/terms.png)
 For the purposes of this standard, the following terms and definitions apply.
 
-##### Acceptable level
+1.  ##### Acceptable level
 Level of a food safety hazard not to be exceeded in the end product provided by the organization.
 
-##### Action criterion
+2.  ##### Action criterion
 Measurable or observable specification for the monitoring of an OPRP.
 
-##### Audit
+3.  ##### Audit
 Systematic, independent and documented process to obtain audit evidence and evaluate it objectively against criteria.
 
-##### Competence
+4.  ##### Competence
 Ability to apply knowledge and skills to achieve intended results.
 
-##### Conformity
+5.  ##### Conformity
 Fulfilment of a requirement.
 
-##### Contamination
+6.  ##### Contamination
 Introduction or occurrence of a contaminant, including a food safety hazard, in a product or environment.
 
-##### Continual improvement
+7.  ##### Continual improvement
 Recurring activity to enhance performance.
 
-##### Control measure
+8.  ##### Control measure
 Action or activity essential to prevent a significant food safety hazard or reduce it to an acceptable level.
 
-##### Correction
+9.  ##### Correction
 Action to eliminate a detected nonconformity.
 
-##### Corrective action
+10.  ##### Corrective action
 Action to eliminate the cause of a nonconformity and prevent recurrence.
 
-##### Critical control point (CCP)
+11.  ##### Critical control point (CCP)
 Step where control measures are applied to prevent or reduce a significant hazard to an acceptable level.
 
-##### Critical limit
+12.  ##### Critical limit
 Measurable value separating acceptability from unacceptability.
 
-##### Documented information
+13.  ##### Documented information
 Information required to be controlled and maintained, including the medium where it is stored.
 
-##### Effectiveness
+14.  ##### Effectiveness
 Extent to which planned activities and results are achieved.
 
-##### End product
+15.  ##### End product
 Product that undergoes no further processing by the organization.
 
-##### Feed
+16.  ##### Feed
 Product intended to be fed to food-producing animals.
 
-##### Flow diagram
+17.  ##### Flow diagram
 Schematic representation of the sequence and interactions of process steps.
 
-##### Food
+18.  ##### Food
 Substance intended for human consumption including beverages, chewing gum and ingredients.
 
-##### Animal food
+19.  ##### Animal food
 Product intended for non-food-producing animals.
 
-##### Food chain
+20.  ##### Food chain
 Sequence of stages involved in the production, processing and distribution of food from source to consumption.
 
-##### Food safety
+21.  ##### Food safety
 Assurance that food will not cause adverse health effects when consumed as intended.
 
-##### Food safety hazard
+22.  ##### Food safety hazard
 Biological, chemical or physical agent with potential to cause adverse health effects.
 
-##### Interested party (stakeholder)
+23.  ##### Interested party (stakeholder)
 Person or organization that can affect, be affected by, or see themselves affected by decisions or activities.
 
-##### Lot
+24.  ##### Lot
 Defined quantity of product produced under the same conditions.
 
-##### Management system
+25.  ##### Management system
 Set of elements used to establish policies, objectives and processes.
 
-##### Measurement
+26.  ##### Measurement
 Process to determine a value.
 
-##### Monitoring
+27.  ##### Monitoring
 Observation or measurement to determine status of a system, process or activity.
 
-##### Nonconformity
+28.  ##### Nonconformity
 Non-fulfilment of a requirement.
 
-##### Objective
+29.  ##### Objective
 Result to be achieved.
 
-##### Operational prerequisite programme (OPRP)
+30.  ##### Operational prerequisite programme (OPRP)
 Control measure essential to control a significant hazard where measurement or observation confirms effectiveness.
 
-##### Organization
+31.  ##### Organization
 Person or group with responsibilities and authority to achieve objectives.
 
-##### Outsource
+32.  ##### Outsource
 Use of an external organization to perform part of a function or process.
 
-##### Performance
+33.  ##### Performance
 Measurable result.
 
-##### Policy
+34.  ##### Policy
 Intentions and direction of an organization as formally expressed by top management.
 
-##### Prerequisite programme (PRP)
+35.  ##### Prerequisite programme (PRP)
 Basic conditions and activities needed to maintain a hygienic environment.
 
-##### Process
+36.  ##### Process
 Set of activities that transform inputs into outputs.
 
-##### Product
+37.  ##### Product
 Output of a process.
 
-##### Requirement
+38.  ##### Requirement
 Need or expectation that is stated, implied or obligatory.
 
-##### Risk
+39.  ##### Risk
 Effect of uncertainty.
 
-##### Significant food safety hazard
+40.  ##### Significant food safety hazard
 Hazard requiring control to ensure food safety.
 
-##### Top management
+41.  ##### Top management
 Group or person directing and controlling the organization at the highest level.
 
-##### Traceability
+42.  ##### Traceability
 Ability to track the history, movement or location of an item.
 
-##### Update
+43.  ##### Update
 Activity to ensure current and relevant information is applied.
 
-##### Validation
+44.  ##### Validation
 Evidence showing that a control measure will effectively control a hazard.
 
-##### Verification
+45.  ##### Verification
 Confirmation that requirements have been fulfilled.
