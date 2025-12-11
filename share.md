@@ -31,7 +31,7 @@ layout: default
 
   const shareData = {
     title: 'ISO-22000 Food Safety Management System',
-    text: 'Check out this comprehensive FSMS standard guide.',
+    text: 'FSMS standard guide.',
     url: "https://realtechsolns.in/fsms"
   };
 

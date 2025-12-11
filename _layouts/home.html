@@ -171,9 +171,9 @@
 
       <!-- Desktop navigation (hidden on mobile) -->
       <nav class="desktop-nav">
-        <a href="#">{% include icons/intro.svg %} About</a>
-        <a href="#"> {% include icons/feedback.svg %} Feedback</a>
-        <a href="#">{% include icons/share.svg %} Share</a>
+        <a href="about.html">{% include icons/intro.svg %} About</a>
+        <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000"> {% include icons/feedback.svg %} Feedback</a>
+        <a href="#" id="webShareBtn">{% include icons/share.svg %} Share</a>
       </nav>
     </header>
 
@@ -184,8 +184,8 @@
       <nav>
 
         <a href="about.html">{% include icons/intro.svg %}  About</a>
-        <a href="feedback.html">{% include icons/feedback.svg %} Feedback</a>
-        <a href="share.html">{% include icons/share.svg %} Share</a>
+        <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000">{% include icons/feedback.svg %} Feedback</a>
+        <a href="#" id= "webShareBtn">{% include icons/share.svg %} Share</a>
 
       </nav>
 
@@ -206,25 +206,18 @@
     const menuBtn = document.getElementById('menuBtn');
     const closeBtn = document.getElementById('closeBtn');
 
-    function openDrawer() {
-      drawer.classList.remove('hidden');
-      overlay.classList.remove('hidden');
-      menuBtn.setAttribute('aria-expanded', 'true');
-    }
+    // function openDrawer() {
+    //   drawer.classList.remove('hidden');
+    //   overlay.classList.remove('hidden');
+    //   menuBtn.setAttribute('aria-expanded', 'true');
+    // }
 
     function closeDrawer() {
       drawer.classList.add('hidden');
       overlay.classList.add('hidden');
       menuBtn.setAttribute('aria-expanded', 'false');
     }
-    // function toggleDrawer() {
-    //   if (drawer.classList.contains('hidden')) {
-    //     openDrawer();
-    //   } else {
-    //     closeDrawer();
-    //   }
-    // }
-
+    
     function toggleDrawer() {
       drawer.classList.toggle('hidden');
       overlay.classList.toggle('hidden');
@@ -233,6 +226,49 @@
     menuBtn.addEventListener('click', toggleDrawer);
     closeBtn.addEventListener('click', closeDrawer);
     overlay.addEventListener('click', closeDrawer);
+  
+   const webShareBtn = document.getElementById('webShareBtn');
+  const webShareStatus = document.getElementById('webShareStatus');
+  const copyLinkBtn = document.getElementById('copyLinkBtn');
+  const copyStatus = document.getElementById('copyStatus');
+
+  const shareData = {
+    title: 'ISO-22000 Food Safety Management System',
+    text: 'FSMS standard guide.',
+    url: "https://realtechsolns.in/fsms"
+  };
+
+  // Web Share API (modern browsers)
+  if (navigator.share) {
+    webShareBtn.addEventListener('click', async () => {
+      try {
+        await navigator.share(shareData);
+        webShareStatus.textContent = '✓ Shared successfully!';
+        webShareStatus.style.color = 'green';
+      } catch (err) {
+        if (err.name !== 'AbortError') {
+          webShareStatus.textContent = '✗ Share failed: ' + err.message;
+          webShareStatus.style.color = 'red';
+        }
+      }
+    });
+  } else {
+    // Fallback: Copy to clipboard (always available)
+    document.getElementById('webShareSection').style.display = 'none';
+    document.getElementById('fallbackSection').style.display = 'block';
+    
+    copyLinkBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(shareData.url).then(() => {
+        copyStatus.textContent = '✓ Link copied!';
+        copyStatus.style.color = 'green';
+        setTimeout(() => { copyStatus.textContent = ''; }, 3000);
+      });
+    });
+  }
+  
+  
+  
+  
   </script>
 
   {{content}}

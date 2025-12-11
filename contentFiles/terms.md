@@ -12,7 +12,7 @@ Level of a food safety hazard not to be exceeded in the end product provided by 
 Measurable or observable specification for the monitoring of an OPRP.
 
 3.  ##### Audit
-Systematic, independent and documented process to obtain audit evidence and evaluate it objectively against criteria.
+Systematic, independent and documented process to obtain audit evidence and evaluate it objectively to determine the extetent to which audit criteria are fulfilled.
 
 4.  ##### Competence
 Ability to apply knowledge and skills to achieve intended results.
@@ -21,7 +21,7 @@ Ability to apply knowledge and skills to achieve intended results.
 Fulfilment of a requirement.
 
 6.  ##### Contamination
-Introduction or occurrence of a contaminant, including a food safety hazard, in a product or environment.
+Introduction or occurrence of a contaminant, including a food safety hazard, in a product or  processing environment.
 
 7.  ##### Continual improvement
 Recurring activity to enhance performance.
@@ -36,7 +36,9 @@ Action to eliminate a detected nonconformity.
 Action to eliminate the cause of a nonconformity and prevent recurrence.
 
 11.  ##### Critical control point (CCP)
-Step where control measures are applied to prevent or reduce a significant hazard to an acceptable level.
+step in the process  at which control measure(s)  is (are) applied to prevent or reduce a
+significant food safety hazard  to an acceptable level, and defined critical limit(s)  and
+measurement  enable the application of corrections 
 
 12.  ##### Critical limit
 Measurable value separating acceptability from unacceptability.
@@ -51,40 +53,51 @@ Extent to which planned activities and results are achieved.
 Product that undergoes no further processing by the organization.
 
 16.  ##### Feed
-Product intended to be fed to food-producing animals.
+Single or multiple product(s), whether processed, semi-processed or raw, which is (are) intended to be
+fed to food-producing animals.
+
 
 17.  ##### Flow diagram
 Schematic representation of the sequence and interactions of process steps.
 
 18.  ##### Food
-Substance intended for human consumption including beverages, chewing gum and ingredients.
+substance (ingredient), whether processed, semi-processed or raw, which is intended for consumption,
+and includes drink, chewing gum and any substance which has been used in the manufacture,
+preparation or treatment of “food” but does not include cosmetics or tobacco or substances (ingredients)
+used only as drugs
+
 
 19.  ##### Animal food
 Product intended for non-food-producing animals.
 
 20.  ##### Food chain
-Sequence of stages involved in the production, processing and distribution of food from source to consumption.
+Sequence of the stages in the production, processing, distribution, storage and handling of a food (3.18)
+and its ingredients, from primary production to consumption
+
 
 21.  ##### Food safety
-Assurance that food will not cause adverse health effects when consumed as intended.
+Assurance that food will not cause an adverse health effect for the consumer when it is prepared and/or
+consumed in accordance with its intended use
+
 
 22.  ##### Food safety hazard
 Biological, chemical or physical agent with potential to cause adverse health effects.
 
 23.  ##### Interested party (stakeholder)
-Person or organization that can affect, be affected by, or see themselves affected by decisions or activities.
+Person or organization (3.31) that can affect, be affected by, or perceive itself to be affected by a decision
+or activity
 
 24.  ##### Lot
-Defined quantity of product produced under the same conditions.
+Defined quantity of a product produced and/or processed and/or packaged essentially under the same conditions.
 
 25.  ##### Management system
-Set of elements used to establish policies, objectives and processes.
+Set of interrelated or interacting elements of an organization to establish policies, objectives and processes to achieve those objectives.
 
 26.  ##### Measurement
 Process to determine a value.
 
 27.  ##### Monitoring
-Observation or measurement to determine status of a system, process or activity.
+Determining the status of a system, a process or an activity.
 
 28.  ##### Nonconformity
 Non-fulfilment of a requirement.
@@ -93,49 +106,49 @@ Non-fulfilment of a requirement.
 Result to be achieved.
 
 30.  ##### Operational prerequisite programme (OPRP)
-Control measure essential to control a significant hazard where measurement or observation confirms effectiveness.
+Control measure or combination of control measures applied to prevent or reduce a significant food safety hazard to an acceptable level, and where action criterion and measurement or observation enable effective control of the process and/or product.
 
 31.  ##### Organization
-Person or group with responsibilities and authority to achieve objectives.
+Person or group of people that has its own functions with responsibilities, authorities and relationships to achieve its objectives.
 
 32.  ##### Outsource
-Use of an external organization to perform part of a function or process.
+Make an arrangement where an external organization performs part of an organization's function or process.
 
 33.  ##### Performance
 Measurable result.
 
 34.  ##### Policy
-Intentions and direction of an organization as formally expressed by top management.
+Intentions and direction of an organization as formally expressed by its top management.
 
 35.  ##### Prerequisite programme (PRP)
-Basic conditions and activities needed to maintain a hygienic environment.
+Basic conditions and activities that are necessary within the organization and throughout the food chain to maintain food safety.
 
 36.  ##### Process
-Set of activities that transform inputs into outputs.
+Set of interrelated or interacting activities which transforms inputs to outputs.
 
 37.  ##### Product
-Output of a process.
+Output that is a result of a process.
 
 38.  ##### Requirement
-Need or expectation that is stated, implied or obligatory.
+Need or expectation that is stated, generally implied or obligatory.
 
 39.  ##### Risk
 Effect of uncertainty.
 
 40.  ##### Significant food safety hazard
-Hazard requiring control to ensure food safety.
+Food safety hazard, identified through the hazard assessment, which needs to be controlled by control measures.
 
 41.  ##### Top management
-Group or person directing and controlling the organization at the highest level.
+Person or group of people who directs and controls an organization at the highest level.
 
 42.  ##### Traceability
-Ability to track the history, movement or location of an item.
+Ability to follow the history, application, movement and location of an object through specified stage(s) of production, processing and distribution.
 
 43.  ##### Update
-Activity to ensure current and relevant information is applied.
+Immediate and/or planned activity to ensure application of the most recent information.
 
 44.  ##### Validation
-Evidence showing that a control measure will effectively control a hazard.
+Obtaining evidence that a control measure (or combination of control measures) will be capable of effectively controlling the significant food safety hazard.
 
 45.  ##### Verification
-Confirmation that requirements have been fulfilled.
+Confirmation, through the provision of objective evidence, that specified requirements have been fulfilled.
