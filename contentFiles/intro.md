@@ -40,13 +40,13 @@ The PDCA cycle can be described briefly as follows:
 In this standard PDCA cycle works at two levels.
 Overall pdca cycle and  PDCA cycle specific to clause 8 .
     <figure> 
-    <img src = "../assets/images/pdca1.png" style = "max-width : 90%; height :auto" >
+    <img src = "../assets/images/pdca1.svg" style = "max-width : 90%; height :auto" >
     <figcaption> Overall PDCA </figcaption>
     </figure>
     - - - 
     <!-- ![pdca1](../images/pdca1.png  "Overall PDCA") -->
     <figure> 
-    <img src = "../assets/images/pdca2.png" style = "max-width : 100%; height :auto" >
+    <img src = "../assets/images/pdca2.svg" style = "max-width : 100%; height :auto" >
     <figcaption> Operations PDCA </figcaption>
     </figure>
 

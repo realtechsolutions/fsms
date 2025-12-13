@@ -228,9 +228,7 @@
     overlay.addEventListener('click', closeDrawer);
   
    const webShareBtn = document.getElementById('webShareBtn');
-  const webShareStatus = document.getElementById('webShareStatus');
-  const copyLinkBtn = document.getElementById('copyLinkBtn');
-  const copyStatus = document.getElementById('copyStatus');
+  
 
   const shareData = {
     title: 'ISO-22000 Food Safety Management System',
@@ -238,32 +236,22 @@
     url: "https://realtechsolns.in/fsms"
   };
 
-  // Web Share API (modern browsers)
+ 
   if (navigator.share) {
     webShareBtn.addEventListener('click', async () => {
       try {
         await navigator.share(shareData);
-        webShareStatus.textContent = '✓ Shared successfully!';
-        webShareStatus.style.color = 'green';
+        
       } catch (err) {
         if (err.name !== 'AbortError') {
-          webShareStatus.textContent = '✗ Share failed: ' + err.message;
-          webShareStatus.style.color = 'red';
+          console.error('Error sharing:', err);
         }
       }
     });
   } else {
     // Fallback: Copy to clipboard (always available)
-    document.getElementById('webShareSection').style.display = 'none';
-    document.getElementById('fallbackSection').style.display = 'block';
+    console.log("Web Share API not supported. Falling back to clipboard copy.");
     
-    copyLinkBtn.addEventListener('click', () => {
-      navigator.clipboard.writeText(shareData.url).then(() => {
-        copyStatus.textContent = '✓ Link copied!';
-        copyStatus.style.color = 'green';
-        setTimeout(() => { copyStatus.textContent = ''; }, 3000);
-      });
-    });
   }
   
   

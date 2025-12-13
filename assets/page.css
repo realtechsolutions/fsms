@@ -21,7 +21,7 @@ display: block;
 .main {
   max-width: 1000px; /* optional for better readability */
   margin: auto;
-  padding: 20px;
+  padding: 0.9rem;
   
   column-count: 1;      /* mobile default */
   column-gap: 40px;     /* space between columns */
@@ -39,8 +39,20 @@ display: block;
 
 
 
-main ol > li > *:not(h5) { display: none; }
-main ol > li.open > * { display: block; }
-main ol > li > h5 { cursor: pointer; }
+main ol > li > *:not(h5) {
+   /* display: none;  */
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  }
+main ol > li.open > * { 
+  /* display: block; */
+  max-height: 2000px; } /* large enough to show content */
+  /* overflow: visible;} */
+
+  main ol > li > h5 { cursor: pointer; }
 main ol > li > h5::before { content: "▶ "; }
 main ol > li.open > h5::before { content: "▼ "; }

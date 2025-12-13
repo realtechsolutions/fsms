@@ -24,16 +24,17 @@ Following points are described in standard.
 
     ***2.2 The PRP(s) shall be:***  
 
-        a- appropriate to the organization and its context with regard to food safety;      
-        b- appropriate to the size and type of the operation and the nature of the products being manufactured and/or handled;       
-        c- implemented across the entire production system, either as programmes applicable in general or as programmes applicable to a particular product or process;       
-        d- approved by the food safety team.   
+    a- appropriate to the organization and its context with regard to food safety;      
+    b- appropriate to the size and type of the operation and the nature of the products being manufactured and/or handled;       
+    c- implemented across the entire production system, either as programmes applicable in general or as programmes applicable to a particular product or process;       
+    d- approved by the food safety team.   
+
     ***2.3 When selecting and/or establishing PRP(s)***
 
-        the organization shall ensure that applicable  statutory, regulatory and mutually agreed customer requirements are identified.      
-        The organization should consider:     
-        a- the applicable part of the ISO/TS 22002 series;  
-        b- applicable standards, codes of practice and guidelines.  
+    the organization shall ensure that applicable  statutory, regulatory and mutually agreed customer requirements are identified.      
+    The organization should consider:     
+    a- the applicable part of the ISO/TS 22002 series;  
+    b- applicable standards, codes of practice and guidelines.  
     
     ***2.4 When establishing PRP(s)- the organization shall consider:***
 
@@ -101,19 +102,19 @@ Following points are described in standard.
     
     *5.1.1 General*
         
-        To carry out the hazard analysis, preliminary documented information shall be collected, maintained
-        and updated by the food safety team. This shall include, but not be limited to:
-        a-applicable statutory, regulatory and customer requirements;
-        b- the organization’s products, processes 
-        c-food safety hazards relevant to the FSMS.
+    To carry out the hazard analysis, preliminary documented information shall be collected, maintained
+    and updated by the food safety team. This shall include, but not be limited to:
+    a-applicable statutory, regulatory and customer requirements;
+    b- the organization’s products, processes 
+    c-food safety hazards relevant to the FSMS.
 
     *5.1.2 Characteristics of raw materials, ingredients and product contact materials*   
         
-        The organization shall ensure that all applicable statutory and regulatory food safety requirements are
-        identified for all raw materials, ingredients and product contact materials.
+    The organization shall ensure that all applicable statutory and regulatory food safety requirements are
+    identified for all raw materials, ingredients and product contact materials.
 
-        The organization shall maintain documented information concerning all raw materials, ingredients   and product contact materials to the extent needed to conduct the hazard analysis , including
-      the following, as appropriate: 
+    The organization shall maintain documented information concerning all raw materials, ingredients   and product contact materials to the extent needed to conduct the hazard analysis , including
+    the following, as appropriate: 
 
     a)biological, chemical and physical characteristics; 
     b) composition of formulated ingredients, including additives and processing aids;   
