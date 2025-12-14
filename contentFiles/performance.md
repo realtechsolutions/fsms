@@ -37,12 +37,13 @@ Following are the points covered in the standard.
 
 2. ##### Internal audit
 
-   *** 2.1 The organization shall conduct internal audits at planned intervals to provide information on whether the FSMS:***
+   ***2.1 The organization shall conduct internal audits at planned intervals to provide information on whether the FSMS:***
 
    a)conforms to:    
    1 the organization’s own requirements for its FSMS;  
    2 the requirements of this document;    
-   b) is effectively implemented and maintained.    
+   b) is effectively implemented and maintained.  
+     
    ***2.2The organization shall:***  
 
    a)plan, establish, implement and maintain (an) audit programme(s), including the frequency, methods,responsibilities, planning requirements and reporting, which shall take into consideration the importance of the processes concerned, changes in the FSMS, and the results of monitoring,measurement and previous audits;      

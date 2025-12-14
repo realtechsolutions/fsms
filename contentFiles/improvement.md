@@ -16,7 +16,7 @@ Following points are covered in the standard.
     a)react to the nonconformity and, as applicable:  
     1) take action to control and correct it;  
     2) deal with the consequences;  
-    b) evaluate the need for action to eliminate the cause(s) of the nonconformity, in order that it does not   recur or occur elsewhere, by:
+    b) evaluate the need for action to eliminate the cause(s) of the nonconformity, in order that it does not   recur or occur elsewhere, by:  
     1) reviewing the nonconformity;  
     2) determining the causes of the nonconformity;  
     3) determining if similar nonconformities exist, or could potentially occur;  

@@ -1,6 +1,6 @@
 ---
 title: ISO-22000
-layout: about.html
+layout: about
 ---
 <div style="max-width: 800px; margin: 0 auto; padding: 2rem 1rem;">
   <h3 style="margin-bottom: 1.5rem; color: var(--pico-primary, #0066cc);

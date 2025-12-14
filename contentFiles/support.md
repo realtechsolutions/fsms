@@ -4,7 +4,7 @@ layout : page
 ---
 
 ![support](../assets/images/support.svg) <br>
-Clause 7 requires the organization to provide the necessary resources, competence, awareness, communication, and documented information needed to operate and maintain the Food Safety Management System effectively.
+Clause 7 requires the organization to provide the necessary resources, competence, awareness, communication, and documented information needed to operate and maintain the Food Safety Management System effectively.  
 Following points are covered in the standard.
 
 1. ##### Resources

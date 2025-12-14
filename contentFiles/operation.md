@@ -5,7 +5,7 @@ layout : page
 ![clause8](../assets/images/clause8.png) 
 
 Clause 8 focuses on carrying out processes necessary to ensure safe food production.   
-It includes hazard analysis, establishing PRPs, CCPs/OPRPs, implementing traceability, controlling outsourced processes, emergency preparedness, and managing nonconforming products to ensure food safety at every stage.  
+It includes hazard analysis, establishing PRPs, CCPs/OPRPs, implementing traceability, controlling outsourced processes, emergency preparedness, and managing nonconforming products to ensure food safety at every stage.    
 Following points are described in standard.   
 
 1. ##### Operational planning and control
@@ -19,7 +19,8 @@ Following points are described in standard.
 
 2. ##### Prerequisite programmes (PRPs)
 
-    ***2.1The organization shall establish, implement, maintain and update PRP(s)***
+    ***2.1 The organization shall establish, implement, maintain and update PRP(s)***
+
      to facilitate the   prevention and/or reduction of contaminants (including food safety hazards) in the products, product processing and work environment. 
 
     ***2.2 The PRP(s) shall be:***  
@@ -144,7 +145,7 @@ Following points are described in standard.
     Groups of consumers/users known to be especially vulnerable to specific food safety hazards shall be identified.
 
     
-    *5.1.4 Flow diagrams and description of processes*
+    *5.1.5 Flow diagrams and description of processes*
    
     *Preparation of the flow diagrams*  
 
@@ -364,13 +365,14 @@ Following points are described in standard.
 
     The food safety team shall conduct an analysis of the results of verification that shall be used as an input to the performance evaluation of the FSMS (see 9.1.2).
 
-9. ##### Control of product and process nonconformities**
+9. ##### Control of product and process nonconformities
   
     ***9.1 General***
 
     The organization shall ensure that data derived from the monitoring of OPRPs and at CCPs are evaluated by designated persons who are competent and have the authority to initiate corrections and corrective actions.
     
-    ***9.2 Corrections**
+    ***9.2 Corrections***
+
     The organization shall ensure that when critical limits at CCP(s) and/or action criteria for  OPRPs are not met, the products affected are identified and controlled with regard to their use and release.  
     The organization shall establish, maintain and update documented information that includes:  
     a) a method of identification, assessment and correction for affected products to ensure their proper handling;  
@@ -389,7 +391,7 @@ Following points are described in standard.
     b) the cause(s) of the failure;   
     c)the consequences as a result of the nonconformity.  
        
-    **9.3 Corrective actions**
+    ***9.3 Corrective actions***
 
     The need for corrective actions shall be evaluated when critical limits at CCP(s) and/or action criteria for OPRPs are not met.  
     The organization shall establish and maintain documented information that specifies appropriate  actions to identify and eliminate the cause of detected nonconformities, to prevent recurrence, and to return the process to control after a nonconformity is identified.   

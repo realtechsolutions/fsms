@@ -54,5 +54,9 @@ opacity: 1;
   /* overflow: visible;} */
 
   main ol > li > h5 { cursor: pointer; }
-main ol > li > h5::before { content: "▶ "; }
-main ol > li.open > h5::before { content: "▼ "; }
+main ol > li > h5::before { content: "▶ "; 
+color: var(--pico-primary);
+}
+main ol > li.open > h5::before { content: "▼ "; 
+color: var(--pico-primary);
+}

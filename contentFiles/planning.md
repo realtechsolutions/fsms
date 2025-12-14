@@ -3,7 +3,7 @@ layout : page
 title : Planning
 ---
 
-![planning](../assets/images/plan.png) <br>
+![planning](../assets/images/planning.svg) <br>
 Clause 6 requires the organization to plan actions to address risks and opportunities, set measurable food safety objectives, and plan how these objectives will be achieved. It also requires proper planning and control when making changes to the FSMS.
 
 1. #####  Actions to address risks and opportunities
