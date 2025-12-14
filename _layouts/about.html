@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -59,38 +58,31 @@
       background: var(--pico-primary-focus);
     }
 
-    
-    /* Enhanced list item styling */
-    main ol > li {
-      margin-bottom: var(--pico-spacing);
-      /* padding: var(--pico-spacing); */
-      /* background: var(--pico-background-color);
-      border: 1px solid var(--pico-muted-border-color);
-      border-radius: var(--pico-border-radius); */
-      transition: all var(--pico-transition);
-    }
-
-    /* main ol > li:hover {
-      border-color: var(--pico-primary);
-      box-shadow: 0 0 0 1px var(--pico-primary);
+    /* Main content styling */
+    /* main {
+      padding: var(--pico-block-spacing-vertical) var(--pico-spacing);
+      max-width: 1200px;
+      margin: 0 auto;
     } */
-
-    main ol > li > h4 {
-      margin: 0;
-      /* padding: 0.5rem; */
-      color: var(--pico-primary);
-      user-select: none;
+     main.container ol {
+      padding-left: 1rem;       /* smaller than browser default (~40px) */
+      margin-left: 0;
+      /* list-style-position: outside; */
     }
+
+    
+
+    
 
     /* Dark theme enhancements */
     @media (prefers-color-scheme: dark) {
       html:not([data-theme="light"]) main ol > li {
-        /* background: var(--pico-card-background-color); */
+        background: var(--pico-card-background-color);
       }
     }
 
     [data-theme="dark"] main ol > li {
-      /* background: var(--pico-card-background-color); */
+      background: var(--pico-card-background-color);
     }
     .icon {
      
@@ -102,7 +94,7 @@
 <body>
 
   <header>
-    <a href="../index.html" class="back-btn" aria-label="Back to home">
+    <a href="index.html" class="back-btn" aria-label="Back to home">
       {% include icons/arrowback.svg %}
     </a>
     <h1>{{page.title}}</h1>
@@ -112,10 +104,6 @@
     {{ content }}
   </main>
 
-  <script> 
-    document.querySelectorAll('main ol > li > h5').forEach(h4 => {
-      h4.addEventListener('click', () => h4.parentElement.classList.toggle('open'));
-    });
-  </script>
+  
 </body>
 </html>

@@ -21,21 +21,34 @@
       margin: 0;
     }
 
-    /* Top bar (sticky + above drawer) */
+    
     .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 60;
-      /* higher than drawer (50) */
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      height: 3.6rem;
-      padding: 0 1rem;
-      /* use Pico primary but fall back to a dark color */
-      background: var(--pico-primary, #1f2937);
-      color: var(--pico-primary-inverse);
-    }
+  position: relative;
+  top: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center the title */
+  height: 3.6rem;
+  padding: 0 1rem;
+  background: var(--pico-primary, #1f2937);
+  color: var(--pico-primary-inverse);
+  position: relative; /* for positioning the title */
+}
+
+/* Icon button stays in normal flow on the left */
+.topbar .hamburger {
+  margin-right: auto; 
+  position:absolute;
+  left: 1rem;
+}
+
+/* Title centers itself */
+.topbar #title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
     .hamburger {
       width: auto;
@@ -173,7 +186,7 @@
       <nav class="desktop-nav">
         <a href="about.html">{% include icons/intro.svg %} About</a>
         <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000"> {% include icons/feedback.svg %} Feedback</a>
-        <a href="#" id="webShareBtn">{% include icons/share.svg %} Share</a>
+        <a href="#" class="webShareBtn">{% include icons/share.svg %} Share</a>
       </nav>
     </header>
 
@@ -185,7 +198,7 @@
 
         <a href="about.html">{% include icons/intro.svg %}  About</a>
         <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000">{% include icons/feedback.svg %} Feedback</a>
-        <a href="#" id= "webShareBtn">{% include icons/share.svg %} Share</a>
+        <a href="#" class= "webShareBtn">{% include icons/share.svg %} Share</a>
 
       </nav>
 
@@ -206,11 +219,7 @@
     const menuBtn = document.getElementById('menuBtn');
     const closeBtn = document.getElementById('closeBtn');
 
-    // function openDrawer() {
-    //   drawer.classList.remove('hidden');
-    //   overlay.classList.remove('hidden');
-    //   menuBtn.setAttribute('aria-expanded', 'true');
-    // }
+    
 
     function closeDrawer() {
       drawer.classList.add('hidden');
@@ -227,7 +236,7 @@
     closeBtn.addEventListener('click', closeDrawer);
     overlay.addEventListener('click', closeDrawer);
   
-   const webShareBtn = document.getElementById('webShareBtn');
+   
   
 
   const shareData = {
@@ -236,23 +245,23 @@
     url: "https://realtechsolns.in/fsms"
   };
 
- 
-  if (navigator.share) {
-    webShareBtn.addEventListener('click', async () => {
+ const webShareBtns = document.querySelectorAll('.webShareBtn');
+
+if (navigator.share) {
+  webShareBtns.forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault(); // Don't follow the # link
       try {
         await navigator.share(shareData);
-        
       } catch (err) {
         if (err.name !== 'AbortError') {
           console.error('Error sharing:', err);
         }
       }
     });
-  } else {
-    // Fallback: Copy to clipboard (always available)
-    console.log("Web Share API not supported. Falling back to clipboard copy.");
-    
-  }
+  });
+}
+  
   
   
   

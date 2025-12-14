@@ -1,13 +1,5 @@
 
-/* main ol > li > h4 {
-  cursor: pointer;
-  padding: 0.6rem 0.8rem;    /* ← This adds space inside */
-  /* margin: 0;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 6px; */
-  /* ... */
-/* } */
+
 img { max-width: 500px;   
   margin-left: 0;
   margin-right: auto;
@@ -21,7 +13,7 @@ display: block;
 .main {
   max-width: 1000px; /* optional for better readability */
   margin: auto;
-  padding: 0.9rem;
+  padding: 0rem;
   
   column-count: 1;      /* mobile default */
   column-gap: 40px;     /* space between columns */
@@ -46,11 +38,19 @@ main ol > li > *:not(h5) {
   transition: all 0.5s ease;
   margin-top: 0;
   margin-bottom: 0;
+  opacity: 0;
   
   }
 main ol > li.open > * { 
   /* display: block; */
-  max-height: 2000px; } /* large enough to show content */
+  max-height: 2000px; 
+opacity: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease;
+} 
+
+/* large enough to show content */
   /* overflow: visible;} */
 
   main ol > li > h5 { cursor: pointer; }

@@ -1,9 +1,10 @@
 ---
 title: ISO-22000
-layout: default
+layout: about.html
 ---
 <div style="max-width: 800px; margin: 0 auto; padding: 2rem 1rem;">
-  <h3 style="margin-bottom: 1.5rem; color: var(--pico-primary, #0066cc);">About</h3>
+  <h3 style="margin-bottom: 1.5rem; color: var(--pico-primary, #0066cc);
+  ">About</h3>
   <p style="font-size: 1.1rem; margin-bottom: 1.5rem; line-height: 1.6;">
     ISO-22000 is also available as an Android app, providing comprehensive food safety management tools on the go.
   </p>

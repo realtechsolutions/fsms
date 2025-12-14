@@ -64,33 +64,3 @@ layout: default
   }
 </script>
 
-<style>
-  .share-container {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    border: 1px solid var(--pico-border);
-    border-radius: 0.5rem;
-    background: var(--pico-card-background);
-  }
-
-  #webShareBtn,
-  #copyLinkBtn {
-    padding: 0.6rem 1.2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 0.375rem;
-  }
-
-  #webShareStatus,
-  #copyStatus {
-    margin-top: 0.5rem;
-    font-weight: 600;
-    min-height: 1.5rem;
-  }
-
-  .secondary {
-    background: var(--pico-muted-color);
-    color: var(--pico-text);
-  }
-</style>
-
