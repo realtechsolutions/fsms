@@ -1,3 +1,30 @@
+
+ 
+
+    /* Main content spacing so header doesn't overlap content */
+    main.container {
+      padding-top: 5rem;
+    }
+    
+    /* Desktop styles (768px and above) */
+    
+
+      
+
+      /* Better spacing for desktop */
+      main.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      
+    #title {
+      font-size: 1.5rem;
+    }
+
+
+
 /* Grid container */
 .grid-container {
   max-width: 1200px;
@@ -54,11 +81,10 @@
 
 /* Image styling */
 .grid-item svg {
-  width: 50px;
-  height: 50px;
+  width: 2.5rem;
+  height: 2.5rem;
   object-fit: contain;
-  flex-shrink: 0;
-  opacity: 0.95;
+  flex-shrink: 0;  
   transition: transform 0.3s ease, opacity 0.3s ease;
   color:var(--pico-primary)
 }
@@ -104,11 +130,11 @@
     padding: 2rem;
   }
   
-  .grid-item img {
+  /* .grid-item img {
     width: 50px;
     height: 50px;
   }
-  
+   */
   .clauseName {
     font-size: 1.25rem;
   }

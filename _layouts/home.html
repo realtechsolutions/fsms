@@ -7,268 +7,100 @@
   <title>{{site.title}}</title>
 
   <!-- Pico CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/2.0.6/pico.min.css">
-
+  <link rel="stylesheet" href="assets/pico.min.css">
+  <link rel="stylesheet" href="assets/home.css">
   <link rel="stylesheet" href="assets/grid.css">
   <style>
     /* Hide drawer and overlay by default */
-    .drawer.hidden,
-    .overlay.hidden {
-      display: none;
-    }
-
-    body {
-      margin: 0;
-    }
-
-    
-    .topbar {
-  position: relative;
-  top: 0;
-  z-index: 60;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* center the title */
-  height: 3.6rem;
-  padding: 0 1rem;
-  background: var(--pico-primary, #1f2937);
-  color: var(--pico-primary-inverse);
-  position: relative; /* for positioning the title */
-}
-
-/* Icon button stays in normal flow on the left */
-.topbar .hamburger {
-  margin-right: auto; 
-  position:absolute;
-  left: 1rem;
-}
-
-/* Title centers itself */
-.topbar #title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-    .hamburger {
-      width: auto;
-      font-size: 1.4rem;
-      margin: 0;
-      padding: 0;
-      background: none;
-      border: none;
-      color: inherit;
-      cursor: pointer;
-    }
-
-    /* Desktop navigation in header */
-    .desktop-nav {
-      display: none;
-      gap: 1.5rem;
-      align-items: center;
-      margin-left: auto;
-    }
-
-    .desktop-nav a {
-      color: white;
-      text-decoration: none;
-      padding: 0.5rem 0.75rem;
-      border-radius: 4px;
-      transition: background 0.2s;
-    }
-
-    .desktop-nav a:hover {
-      background: rgba(255, 255, 255, 0.1);
-    }
-
-    /* Drawer (fixed at left) */
-    .drawer {
-      width: 50vw;
-      height: 50vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background: var(--pico-secondary-background);
-      color: var(--pico-secondary-inverse);
-      padding: 1.2rem;
-      box-shadow: 3px 0 12px rgba(0, 0, 0, 0.15);
-      z-index: 50;
-      /* below header */
-      overflow-y: auto;
-    }
-
-    .drawer a {
-      display: flex;
-      align-items: center;     
-      padding: 0.6rem 0;
-      color: var(--pico-secondary-inverse);
-      text-decoration: none;
-      gap:0.5rem ;
-      font-size: 1.1rem;
-    }
-
-    /* Overlay (covers page when drawer open) */
-    .overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.35);
-      z-index: 40;
-    }
-
-    /* Main content spacing so header doesn't overlap content */
-    main.container {
-      padding-top: 1rem;
-    }
-    svg {
-       display: inline-block; 
-      width: 2rem;
-      height: 2rem;
-      vertical-align: middle;
-      fill:currentColor;
-      padding-left: 1rem;
-      margin-left: 1rem; 
-    }
-
-    /* Desktop styles (768px and above) */
-    @media (min-width: 768px) {
-
-      /* Hide mobile hamburger */
-      .hamburger {
-        display: none;
-      }
-
-      /* Hide drawer on desktop */
-      .drawer {
-        display: none !important;
-      }
-
-      /* Hide overlay on desktop */
-      .overlay {
-        display: none !important;
-      }
-
-      /* Show desktop navigation */
-      .desktop-nav {
-        display: flex;
-      }
-
-      /* Better spacing for desktop */
-      main.container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem;
-      }
-
-      .topbar {
-        padding: 0 2rem;
-      }
-    }
-
-    #title {
-      font-size: 1.5rem;
-    }
   </style>
 </head>
 
 <body>
+  <header>
+    <div id="menu-button">
+      &equiv; </div> <span>ISO 22000</span>
 
-  <div>
+    <nav id="desktopNav">
+       <ul>
+        <li> <a href="about.html"> <span class=".drawerimg">{% include icons/intro.svg %} </span>
+            <span> About </span></a> </li>
+        <li> <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000">
+            <span>{% include icons/feedback.svg %} </span> <span> Feedback </span></a></li>
+        <li> <a href="#" class="webShareBtn"><span>{% include icons/share.svg %} </span>
+            <span> Share</span>
+          </a></li>
+      </ul>
+    </nav>
 
-    <!-- Top bar: sticky and always visible -->
-    <header class="topbar" role="banner" aria-hidden="false" aria-label="Top app bar">
-      <button class="hamburger" id="menuBtn" aria-controls="app-drawer" aria-expanded="false">
-        ☰
-      </button>
-      <span id="title">{{site.title}} </span>
-      <!-- <h2>{{site.title}}</h2> -->
 
-      <!-- Desktop navigation (hidden on mobile) -->
-      <nav class="desktop-nav">
-        <a href="about.html">{% include icons/intro.svg %} About</a>
-        <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000"> {% include icons/feedback.svg %} Feedback</a>
-        <a href="#" class="webShareBtn">{% include icons/share.svg %} Share</a>
-      </nav>
-    </header>
+  </header>
+  <div class="overlay" hidden></div>
 
-    <!-- Drawer -->
-    <aside id="app-drawer" class="drawer hidden" aria-label="Main menu" role="navigation">
-      <h4 style="margin-top:0;">Menu</h4>
+  <aside id="drawer">
+    <nav>
+      <ul>
+        <li> <a href="about.html"> <span class=".drawerimg">{% include icons/intro.svg %} </span>
+            <span> About </span></a> </li>
+        <li> <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000">
+            <span>{% include icons/feedback.svg %} </span> <span> Feedback </span></a></li>
+        <li> <a href="#" class="webShareBtn"><span>{% include icons/share.svg %} </span>
+            <span> Share</span>
+          </a></li>
+      </ul>
 
-      <nav>
-
-        <a href="about.html">{% include icons/intro.svg %}  About</a>
-        <a href="mailto:realtechsolns@gmail.com?subject=Feedback ISO-22000">{% include icons/feedback.svg %} Feedback</a>
-        <a href="#" class= "webShareBtn">{% include icons/share.svg %} Share</a>
-
-      </nav>
-
-      <div style="margin-top:1rem;">
-        <button class="secondary" id="closeBtn"></button>
-      </div>
-    </aside>
-
-    <!-- Overlay -->
-    <div id="overlay" class="overlay hidden" aria-hidden="true"></div>
-
-    <!-- Main content -->
-  </div>
-
-  <script>
-    const drawer = document.getElementById('app-drawer');
-    const overlay = document.getElementById('overlay');
-    const menuBtn = document.getElementById('menuBtn');
-    const closeBtn = document.getElementById('closeBtn');
-
-    
-
-    function closeDrawer() {
-      drawer.classList.add('hidden');
-      overlay.classList.add('hidden');
-      menuBtn.setAttribute('aria-expanded', 'false');
-    }
-    
-    function toggleDrawer() {
-      drawer.classList.toggle('hidden');
-      overlay.classList.toggle('hidden');
-    }
-
-    menuBtn.addEventListener('click', toggleDrawer);
-    closeBtn.addEventListener('click', closeDrawer);
-    overlay.addEventListener('click', closeDrawer);
-  
-   
-  
-
-  const shareData = {
-    title: 'ISO-22000 Food Safety Management System',
-    text: 'FSMS standard guide.',
-    url: "https://realtechsolns.in/fsms"
-  };
-
- const webShareBtns = document.querySelectorAll('.webShareBtn');
-
-if (navigator.share) {
-  webShareBtns.forEach(btn => {
-    btn.addEventListener('click', async (e) => {
-      e.preventDefault(); // Don't follow the # link
-      try {
-        await navigator.share(shareData);
-      } catch (err) {
-        if (err.name !== 'AbortError') {
-          console.error('Error sharing:', err);
-        }
-      }
-    });
-  });
-}
-  
-  
-  
-  
-  
-  </script>
-
+    </nav>
+  </aside>
   {{content}}
-</body>
+  <script>
+    const overlay = document.querySelector(".overlay")
+    const bt = document.getElementById("menu-button")
+    const aside = document.querySelector("aside")
 
+    bt.addEventListener("click", () => {
+      aside.classList.toggle("show")
+      document.querySelector(".overlay").toggleAttribute("hidden")
+    }
+    )
+    overlay.addEventListener("click", () => {
+      aside.classList.remove("show")
+      overlay.toggleAttribute("hidden")
+    }) 
+
+    const shareData = {
+      title: 'ISO-22000 Food Safety Management System',
+      text: 'FSMS standard guide.',
+      url: "https://realtechsolns.in/fsms"
+    };
+
+    const webShareBtns = document.querySelectorAll('.webShareBtn');
+
+    if (navigator.share) {
+      webShareBtns.forEach(btn => {
+        btn.addEventListener('click', async (e) => {
+          e.preventDefault(); // Don't follow the # link
+          try {
+            await navigator.share(shareData);
+          } catch (err) {
+            if (err.name !== 'AbortError') {
+              console.error('Error sharing:', err);
+            }
+          }
+        });
+      });
+    }
+
+    let isDark = Android.isDarkMode()
+
+    const htmlElement = document.documentElement; // Get the <html> element
+    let themeValue = htmlElement.getAttribute('data-theme'); // Use 'let' so it can be reassigned
+
+    if (isDark) {
+      themeValue = "dark";
+    } else {
+      themeValue = "light";
+    }
+
+    htmlElement.setAttribute('data-theme', themeValue); // Set the attribut
+  </script>
+</body>
 </html>

@@ -3,7 +3,7 @@ title : Improvement
 layout : page
 ---
 
-![improvement](../assets/images/improvement.png)
+![improvement](../assets/images/clause10.png)
 
 Clause 10 requires organizations to continually improve their Food Safety Management System.  
 It involves identifying and managing nonconformities, taking corrective actions to prevent recurrence, and enhancing overall system effectiveness to ensure food safety is consistently maintained.  

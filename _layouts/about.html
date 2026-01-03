@@ -4,91 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | ISO-22000</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/2.0.6/pico.min.css">
+  <link rel="stylesheet" href="../assets/pico.min.css">
   <link rel="stylesheet" href="../assets/page.css">
   <style>
     /* Header styling using Pico's design tokens */
-    header {
-      height: 3.6rem;
-      display: flex;
-      align-items: center;
-      padding: var(--pico-spacing);
-      background: var(--pico-primary);
-      color: var(--pico-primary-inverse);
-      box-shadow: var(--pico-box-shadow);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
     
-    header h1 {
-      flex: 1;
-      margin: 0;
-      font-size: 1.25rem;
-      text-align: center;
-      font-weight: 600;
-      color: var(--pico-primary-inverse);
-    }
-    svg {
-      width: 1.8rem;
-      height: 1.8rem;
-      fill: currentColor;
-    }
-    
-    .back-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      /* width: 2.5rem;
-      height: 2.5rem; */
-      /* background: var(--pico-primary-hover); */
-      border: none;
-      border-radius: var(--pico-border-radius);
-      color: var(--pico-primary-inverse);
-      /* font-size: 2rem; */
-      cursor: pointer;
-      text-decoration: none;
-      transition: background-color var(--pico-transition);
-      margin: 0;
-      padding: 0;
-      
-    }
-    
-    .back-btn:hover {
-      background: var(--pico-primary-focus);
-    }
-
-    /* Main content styling */
-    /* main {
-      padding: var(--pico-block-spacing-vertical) var(--pico-spacing);
-      max-width: 1200px;
-      margin: 0 auto;
-    } */
-     main.container ol {
-      padding-left: 1rem;       /* smaller than browser default (~40px) */
-      margin-left: 0;
-      /* list-style-position: outside; */
-    }
-
-    
-
-    
-
-    /* Dark theme enhancements */
-    @media (prefers-color-scheme: dark) {
-      html:not([data-theme="light"]) main ol > li {
-        background: var(--pico-card-background-color);
-      }
-    }
-
-    [data-theme="dark"] main ol > li {
-      background: var(--pico-card-background-color);
-    }
-    .icon {
-     
-      color: var(--pico-primary);}
-
-
   </style>
 </head>
 <body>
@@ -103,7 +23,23 @@
   <main class="container">
     {{ content }}
   </main>
+  <script>
 
-  
+  let  isDark = Android.isDarkMode()
+      
+      const htmlElement = document.documentElement; // Get the <html> element
+let themeValue = htmlElement.getAttribute('data-theme'); // Use 'let' so it can be reassigned
+
+if (isDark) {
+    themeValue = "dark";
+} else {
+    themeValue = "light";
+}
+
+
+htmlElement.setAttribute('data-theme', themeValue); // Set the attribut
+   
+</script>
+
 </body>
 </html>
