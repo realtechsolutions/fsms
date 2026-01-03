@@ -1,0 +1,104 @@
+
+  body { margin :0;
+      
+      padding-top :3.8rem;
+      
+    }
+      
+      header {
+        position:fixed;
+        height: 3.8rem;
+        top: 0;
+        left: 0;
+        display : flex;
+        align-items:  center;
+        align-content: center;
+       gap: 6rem;       
+       font-size: 1.4rem;
+       background-color: var(--pico-primary-background);
+       padding: 0.3rem;
+       margin: 0;
+       width:100%;
+       overflow: hidden;
+       z-index: 500;
+      }
+      aside {background-color: var(--pico-secondary-background) ;
+      display :block ;
+      width: 0;
+      position :fixed;
+      top :0;
+      padding-top :5rem;
+        overflow: hidden;
+        opacity: 0;
+        transition: 0.3s ease;
+        z-index: 150;
+        border-radius :0 1rem 1rem 0
+      }
+        
+      aside.show{
+        width :50vw;
+        opacity: 1;
+        z-index: 150;
+      }
+      
+      .overlay {        
+      position :fixed;  
+      top :0;
+      left: 0;
+       background-color: grey;
+        opacity: 0.2;
+       
+       width: 100%;
+       height: 100%;
+       z-index: 100;
+         
+    }
+      a {
+        
+        display :flex;
+        flex-direction: row!important;
+       
+        gap: 3rem;
+        padding :2rem;
+        font-size: 1.2rem;
+        color: var(--pico-contrast)}
+      /* Mobile-first approach: Show menu button by default, hide desktop nav */
+#menu-button {
+  display: block;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+  nav ul li a span svg {
+     
+      display: inline-block;      
+      
+      vertical-align: middle;
+      fill:var(--pico-primary);
+      padding-right: 1rem;
+       margin-left: 1rem;
+      width: 3rem;
+      height: 3rem;
+     
+     
+    }
+
+#desktopNav {
+  display: none
+}
+
+@media (min-width: 800px) {
+  /* Desktop styles: Hide menu button, show desktop nav */
+  #menu-button {
+    display: none
+  }
+
+  #desktopNav {
+    display: flex;
+    gap: 2rem;
+    
+  }
+}
+       
+
+      
