@@ -4,6 +4,17 @@ layout : page
 ---
 
 ![support](../assets/images/support.svg) <br>
+
+<div style="text-align: center;">
+<a href="https://youtube.com/shorts/0kEetrmvNtU">
+<img src="utube.svg" alt="Watch on YouTube">
+<br> 
+Watch on YouTube.
+</a> 
+<br>
+</div>
+
+
 Clause 7 requires the organization to provide the necessary resources, competence, awareness, communication, and documented information needed to operate and maintain the Food Safety Management System effectively.  
 Following points are covered in the standard.
 

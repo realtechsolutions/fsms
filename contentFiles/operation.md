@@ -4,6 +4,16 @@ layout : page
 ---
 ![clause8](../assets/images/operations.png) 
 
+<div style="text-align: center;">
+<a href="https://youtube.com/shorts/Pf_IP5WG64A">
+<img src="utube.svg" alt="Watch on YouTube">
+<br> 
+Watch on YouTube.
+</a> 
+<br>
+</div>
+
+
 Clause 8 focuses on carrying out processes necessary to ensure safe food production.   
 It includes hazard analysis, establishing PRPs, CCPs/OPRPs, implementing traceability, controlling outsourced processes, emergency preparedness, and managing nonconforming products to ensure food safety at every stage.    
 Following points are described in standard.   

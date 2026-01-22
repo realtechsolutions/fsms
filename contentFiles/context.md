@@ -4,6 +4,14 @@ title : Context of organisation
 ---
 ![context](../assets/images/context.png)
 
+<div style="text-align: center;">
+<a href="https://youtube.com/shorts/q20s1H5agxU">
+<img src="../assets/images/utube.svg" alt="Watch on YouTube">
+<br>
+Watch on YouTube.
+</a>
+</div>
+
 Clause 4 introduces the requirement that an organization must understand its own context before implementing a Food Safety Management System.
 
 It asks the organization to examine both internal and external factors that could influence its ability to produce safe food, understand needs and expectations of interested parties, and define the boundaries and scope of its FSMS accordingly.
