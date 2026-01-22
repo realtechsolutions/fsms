@@ -90,6 +90,13 @@ display: block;
 /* filter: invert(100%); */
 
 }
+.utube{
+  max-width: 10vw ; 
+  margin-left: 0;
+  margin-right: auto;
+  
+  height: auto;
+}
 
 .main {
   max-width: 1000px; /* optional for better readability */

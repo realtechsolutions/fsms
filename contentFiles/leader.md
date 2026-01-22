@@ -7,7 +7,7 @@ title: Leadership
 
 <div style="text-align: center;">
 <a href="https://youtube.com/shorts/A4XQahOxCws">
-<img src="utube.svg" alt="Watch on YouTube">
+<img src="../assets/images/utube.svg" alt="Watch on YouTube">
 <br> 
 Watch on YouTube.
 </a> 
