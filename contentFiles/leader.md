@@ -8,12 +8,12 @@ title: Leadership
 <div style="text-align: center;">
 <a href="https://youtube.com/shorts/A4XQahOxCws">
 <img src="../assets/images/utube.svg" alt="Watch on YouTube" class = "utube">
-<br> 
-Watch on YouTube.
+
+Watch on YouTube (Optional)
 </a> 
 <br>
 </div>
-
+<br> 
 
 Clause 5 requires top management to demonstrate leadership and commitment to food safety, establish a food safety policy, and ensure roles and responsibilities are clearly assigned and communicated.
 

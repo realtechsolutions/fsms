@@ -7,10 +7,11 @@ title : Introduction
 <div style="text-align: center;">
 <a href="https://youtube.com/shorts/4oImLfo9o5c">
 <img src="../assets/images/utube.svg" alt="Watch on YouTube" class = "utube">
-<br>
-Watch on YouTube.
+
+Watch on YouTube (Optional)
 </a>
 </div>
+<br>
 
 ISO 22000 establishes requirements for a Food Safety Management System to help organizations in the food chain identify and control food safety hazards, ensuring food is safe for consumption.
 It applies to all types and sizes of food-related businesses and combines communication, prerequisite programs, and HACCP principles within a management system aligned with ISO’s structure.
