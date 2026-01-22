@@ -7,7 +7,7 @@ layout : page
 
 <div style="text-align: center;">
 <a href="https://youtube.com/shorts/Qmqz1nub-TM">
-<img src="../assets/images/utube.svg" alt="Watch on YouTube">
+<img src="../assets/images/utube.svg" alt="Watch on YouTube" class = "utube" >
 <br> 
 Watch on YouTube.
 </a> 

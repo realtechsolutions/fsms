@@ -92,9 +92,9 @@ display: block;
 }
 .utube{
   max-width: 10vw ; 
-  margin-left: 0;
+  margin-left: auto;
   margin-right: auto;
-  
+  display: block;
   height: auto;
 }
 

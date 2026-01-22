@@ -7,7 +7,7 @@ title : Planning
 
 <div style="text-align: center;">
 <a href="https://youtube.com/shorts/l05z6GTwNKM">
-<img src="../assets/images/utube.svg" alt="Watch on YouTube">
+<img src="../assets/images/utube.svg" alt="Watch on YouTube" class = "utube">
 <br> 
 Watch on YouTube.
 </a> 

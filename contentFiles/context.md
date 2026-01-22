@@ -7,10 +7,11 @@ title : Context of organisation
 <div style="text-align: center;">
 <a href="https://youtube.com/shorts/q20s1H5agxU">
 <img src="../assets/images/utube.svg" alt="Watch on YouTube" class = "utube">
-<br>
-Watch on YouTube.
+
+Watch on YouTube(Optional).
 </a>
 </div>
+<br>
 
 Clause 4 introduces the requirement that an organization must understand its own context before implementing a Food Safety Management System.
 
